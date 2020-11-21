@@ -1,0 +1,42 @@
+//////////// Light /////////////
+$primaryColorLight: #2b78fe;
+$primaryBackColorLight: #fff;
+$secondaryBackColorLight: #fafafa;
+$primaryTextColorLight: #838383;
+$secondaryTextColorLight: #a3a3a3;
+@mixin boxShadowLight() {
+  box-shadow: 0 0 7px #939292;
+}
+
+//////////// Dark /////////////
+$primaryColorDark: #2b78fe;
+$primaryBackColorDark: #333;
+$secondaryBackColorDark: #444;
+$primaryTextColorDark: #a3a3a3;
+$secondaryTextColorDark: #939393;
+@mixin boxShadowDark() {
+  box-shadow: 0 0 5px #555;
+}
+
+//////////// Main Colors /////////////
+$defaultColor: #f0f0f0;
+$defaultColorText: #838383;
+
+$primaryColor: #2b78fe;
+$primaryColorText: #ffffff;
+
+$successColor: #5bc945;
+$successColorText: #ffffff;
+
+$dangerColor: #f44336;
+$dangerColorText: #ffffff;
+
+$warningColor: #fb8c00;
+$warningColorText: #ffffff;
+
+//////////// Modal Colors /////////////
+$modalHeaderLight: #fafafa;
+$modalBodyLight: #fff;
+
+$modalHeaderDark: #fafafa;
+$modalBodyDark: #fff;
