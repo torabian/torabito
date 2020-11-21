@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Windows/Mac/Linux IOT Platform" />
+    <title>
+      Torabito IOT Platform - Monitoring and Controlling devices for enterprise
+      and hobbyists
+    </title>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!---------- Navbar Section ----------->
+    <div class="navbar-section">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/favicon/favicon-32x32.png" alt="" />
+            Torabito IOT Dashboard
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link scroll-to"
+                  data-offset="150"
+                  href="#versioning"
+                  >Downloads</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link scroll-to"
+                  data-offset="120"
+                  href="#why_torabito"
+                  >Why Torabito?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll-to" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll-to" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://www.youtube.com/playlist?list=PLjI1p5Y_0z182qr9HdsM5VrJ0sDSA52Gn"
+                  >Learn</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="demo">Online demo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!---------- //Navbar Section ----------->
+
+    <div class="main-content">
+      <!---------- Update Banner Section ----------->
+      <div class="updates-banner">
+        <div class="container">
+          <p class="message">
+            <strong>Version 1.0.1</strong> is now available! You can download
+            the latest version of Torabito IOT Dashboard.
+          </p>
+        </div>
+      </div>
+      <!---------- Update Banner Section ----------->
+      <!---------- Header Section ----------->
+      <div class="header-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 left-header">
+              <h1>Monitor, Manage. <strong>Your Devices.</strong></h1>
+              <div class="lead">
+                <p>
+                  <span
+                    ><strong>Free for students.</strong> Runs everywhere.</span
+                  >
+                </p>
+              </div>
+              <div class="download-buttons">
+                <a
+                  id="download-client-platform"
+                  data-offset="150"
+                  class="primary-button"
+                >
+                  <div>
+                    Download for <span id="client-platform"></span>
+                    <small class="build-type">Stable Build</small>
+                  </div>
+                  <img src="./assets/images/download.svg" />
+                </a>
+
+                <a
+                  href="#versioning"
+                  data-offset="150"
+                  class="scroll-to download-matrix-label"
+                >
+                  Or Download For Other Platforms
+                </a>
+                <p class="terms">
+                  By using Torabito IOT Dashboard, you agree to its
+                  <a
+                    href="javascript:{null}"
+                    data-toggle="modal"
+                    data-target="#privacyAndPolicyModal"
+                    >license and privacy statement</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-8 slide-wrapper">
+              <div class="slide1"></div>
+              <div class="slide2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---------- //Header Section ----------->
+      <!---------- Versions   Section ----------->
+      <div class="gray-section">
+        <div id="versioning" class="versions-section">
+          <div class="container">
+            <div class="row">
+              <div class="version-container">
+                <div class="row">
+                  <div class="platform col-md-4">
+                    <img
+                      class="platform-logo"
+                      src="./assets/images/windows-logo.png"
+                    />
+                    <table class="download-list">
+                      <tr>
+                        <td colspan="2">
+                          <span class="supported-version"
+                            >Windows 7, 8, 10</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Installer(.exe)</td>
+                        <td>
+                          <a
+                            href="releases/torabito-win32-x64/torabito-win32-x64.exe"
+                            target="_blank"
+                            >64 bit</a
+                          >
+                          <a
+                            href="releases/torabito-win32-x86/torabito-win32-x86.exe"
+                            target="_blank"
+                            >32 bit</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>.zip</td>
+                        <td>
+                          <a
+                            href="releases/torabito-win32-x64/torabito-win32-x64.zip"
+                            target="_blank"
+                            >64 bit</a
+                          >
+                          <a
+                            href="releases/torabito-win32-x86/torabito-win32-x86.zip"
+                            target="_blank"
+                            >32 bit</a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="platform col-md-4">
+                    <img
+                      class="platform-logo"
+                      src="./assets/images/linux-logo.png"
+                    />
+                    <table class="download-list">
+                      <tr>
+                        <td colspan="2">
+                          <span class="supported-version"
+                            >Debian, Ubuntu, Raspberry PI</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Debian (.zip)</td>
+                        <td>
+                          <a
+                            href="releases/linux-debian/torabito-linux-debian.zip"
+                            >64 bit</a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="platform col-md-4">
+                    <img
+                      class="platform-logo"
+                      src="./assets/images/apple-logo.png"
+                    />
+                    <table class="download-list">
+                      <tr>
+                        <td colspan="2">
+                          <span class="supported-version">macOS 10.10+</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Installer(.pkg)</td>
+                        <td>
+                          <a
+                            href="./releases/torabito-mac-installer/TorabitoInstaller.pkg"
+                            target="_blank"
+                            >64 bit</a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------- //Versions Section ----------->
+        <!---------- Description Section ----------->
+        <div class="brief-description-wrapper">
+          <div class="container">
+            <div class="row align-item-center">
+              <div
+                id="why_torabito"
+                class="col-lg-6 brief-description-image-wrapper"
+              >
+                <img
+                  class="brief-description-image"
+                  src="./assets/images/3d.png"
+                />
+              </div>
+              <div class="col-lg-6 brief-description">
+                <h1>Start with Torabito</h1>
+                <p>
+                  Torabito is a client side software which helps to control IOT
+                  Devices using different protocols, such as UDP and SerialPort.
+                  As hobbyist you can download the softare and read SerialPort
+                  and UDP information from Arduino, NodeMCU and other devices
+                  which support SerialPort or UDP over internal networks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------- //Description Section ----------->
+
+        <!---------- Tour Section ----------->
+        <div id="features" class="features-wrapper">
+          <div class="container">
+            <div class="section-title row align-item-center">
+              <div class="col-md-12 text-center">
+                <h2><strong>Torabito IOT</strong> capabilities</h2>
+                <p>
+                  See quickly what kind of value torabito iot suite can bring
+                  for you.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 d-none d-lg-block">
+                <div
+                  id="list-spy"
+                  class="list-group"
+                  style="position: sticky; top: 100px"
+                >
+                  <a
+                    class="scroll-to list-group-item list-group-item-action"
+                    href="#list-item-1"
+                  >
+                    <h3>Import External history</h3>
+                    <p>
+                      Import data recorded from different devices which do not
+                      support internet or modern communication protocols.
+                      Torabito will automatically detect data types, and build a
+                      data history that you can make reports out of those
+                      records. These data can be added dynamically as CSV files.
+                    </p>
+                  </a>
+                  <a
+                    class="scroll-to list-group-item list-group-item-action"
+                    href="#list-item-2"
+                  >
+                    <h3>SerialPort reader</h3>
+                    <p>
+                      Torabito software can listen to serialports, and convert
+                      the data coming from them in realtime to different
+                      structure and record them. Useful for devices which send
+                      information such as temperature to specific serialport.
+                    </p>
+                  </a>
+                  <a
+                    class="scroll-to list-group-item list-group-item-action"
+                    href="#list-item-3"
+                  >
+                    <h3>UDP Listener</h3>
+                    <p>
+                      With torabito you can listen to infinite udp ports, and
+                      record or monitor the incoming information into your
+                      desired database.
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div
+                  data-spy="scroll"
+                  data-target="#list-spy"
+                  data-offset="0"
+                  class="scrollspy"
+                >
+                  <div id="list-item-1">
+                    <img src="./assets/images/list-2.png" />
+                    <div class="d-block d-lg-none">
+                      <h3>Import External history</h3>
+                      <p>
+                        Import data recorded from different devices which do not
+                        support internet or modern communication protocols.
+                        Torabito will automatically detect data types, and build
+                        a data history that you can make reports out of those
+                        records. These data can be added dynamically as CSV
+                        files.
+                      </p>
+                    </div>
+                  </div>
+                  <div id="list-item-2">
+                    <img src="./assets/images/list-1.png" />
+                    <div class="d-block d-lg-none">
+                      <h3>SerialPort reader</h3>
+                      <p>
+                        Torabito software can listen to serialports, and convert
+                        the data coming from them in realtime to different
+                        structure and record them. Useful for devices which send
+                        information such as temperature to specific serialport.
+                      </p>
+                    </div>
+                  </div>
+                  <div id="list-item-3">
+                    <img src="./assets/images/list-3.png" />
+                    <div class="d-block d-lg-none">
+                      <h3>UDP Listener</h3>
+                      <p>
+                        With torabito you can listen to infinite udp ports, and
+                        record or monitor the incoming information into your
+                        desired database.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------- //Tour Section ----------->
+
+        <!---------- Ourteam Section ----------->
+        <div id="team" class="our-team-wrapper">
+          <div class="container">
+            <div class="section-title row align-item-center">
+              <div class="col-md-12 text-center">
+                <h2><strong>Meet</strong> Our Team</h2>
+                <p>
+                  People who work hard for this project to make IOT cheaper for
+                  everyone.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <div class="member">
+                  <img
+                    class="member-image"
+                    src="./assets/images/torabito.jpg"
+                    alt="Ali Torabi"
+                  />
+                  <h3 class="member-name">Ali Torabi</h3>
+                  <p class="member-position">Software Engineer</p>
+                  <p class="about-member">
+                    Ali is a programmer who believe that programming is his best
+                    hobby. He is JavaScript proficient but also has some
+                    interest in 3D Design, embedded programming and
+                    manufactering processs.
+                    <br />He has experience of working in many countries, such
+                    as Iran, Malaysia, Thailand and Poland and believe despite
+                    the differences, in languages, message is the same.
+                  </p>
+                  <a
+                    class="member-socials"
+                    href="https://www.linkedin.com/in/ali-torabi"
+                    target="_blank"
+                  >
+                    <img src="./assets/images/linkedin-dark.svg" />
+                  </a>
+                  <a
+                    class="member-socials"
+                    href="https://github.com/torabian"
+                    target="_blank"
+                  >
+                    <img src="./assets/images/github-dark.svg" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-2"></div>
+              <div class="col-md-5">
+                <div class="member">
+                  <img
+                    class="member-image"
+                    src="./assets/images/sami.jpg"
+                    alt="Yousef Sami"
+                  />
+                  <h3 class="member-name">Yousef Sami</h3>
+                  <p class="member-position">Developer, Designer</p>
+                  <p class="about-member">
+                    Yousef is a dedicated person with vast knowledge in
+                    different areas of programming. Despite of experience in
+                    many languages, JavaScript and Java are his main skills. He
+                    believes that IOT is the future of automation
+                  </p>
+                  <a
+                    class="member-socials"
+                    href="https://www.linkedin.com/in/yousefsami"
+                    target="_blank"
+                  >
+                    <img src="./assets/images/linkedin-dark.svg" />
+                  </a>
+                  <a
+                    class="member-socials"
+                    href="https://github.com/yousefsami"
+                    target="_blank"
+                  >
+                    <img src="./assets/images/github-dark.svg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------- //Ourteam Section ----------->
+        <!---------- Contact us Section ----------->
+        <div id="contact_us" class="contact-us-wrapper">
+          <div class="container">
+            <div class="section-title row align-item-center">
+              <div class="col-md-12 text-center">
+                <h2><strong>Contact</strong> Us</h2>
+                <p>
+                  If you have any questions or comments about Torabito IOT
+                  Dashboard please contact us.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="item-box col-md-4">
+                <img src="./assets/images/placeholder.png" />
+                <p>Pluskiego 74, Wroclaw, Poland</p>
+              </div>
+              <div class="item-box col-md-4">
+                <img src="./assets/images/telephone.png" />
+                <p>
+                  <a href="tel:+48783538796">+48 783 538 796</a>
+                </p>
+              </div>
+              <div class="item-box col-md-4">
+                <img src="./assets/images/mail.png" />
+                <p>
+                  <a href="mailto:connexion.founder@outlook.com">
+                    connexion.founder@outlook.com
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------- //Contact us Section ----------->
+      </div>
+      <!---------- Footer Section ----------->
+      <div class="footer-section">
+        <div class="container">
+          <div class="row align-item-center">
+            <div class="col-md-6 copy-right">
+              <p>© 2020 PixelPlux S.p z.o.o. All rights reserved</p>
+              |
+              <a
+                href="javascript:{null}"
+                data-toggle="modal"
+                data-target="#termsAndConditionsModal"
+                >Terms of Service</a
+              >
+              |
+              <a
+                href="javascript:{null}"
+                data-toggle="modal"
+                data-target="#privacyAndPolicyModal"
+                >Privacy</a
+              >
+            </div>
+            <div class="col-md-6 social-items">
+              <ul>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://github.com/torabian/torabito"
+                  >
+                    <img src="./assets/images/github.svg" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/ali-torabi/"
+                  >
+                    <img src="./assets/images/linkedin.svg" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/playlist?list=PLjI1p5Y_0z182qr9HdsM5VrJ0sDSA52Gn"
+                  >
+                    <img src="./assets/images/youtube.svg" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---------- //Footer Section ----------->
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="termsAndConditionsModal"
+      tabindex="-1"
+      aria-labelledby="termsAndConditionsModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="termsAndConditionsModalLabel">
+              Terms and conditions
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="big-content">
+              <h2>Torabito IOT Dashboard</h2>
+              <p>
+                Thanks for using <i>Torabito IOT Dashboard</i>. These Terms of
+                Use (“Terms”) are a legal agreement between you and PixelPlux
+                s.p. zoo (“<i>Torabito IOT Dashboard</i>”) and govern your use
+                of all the text, data, information, software, graphics,
+                photographs and more that we and our affiliates may make
+                available to you (all of which we refer to as “Materials”),
+                including our websites and any services, plug-ins, software or
+                other Downloadable Tools (as defined below) that we may provide
+                through any of our websites (the “Platform” and together with
+                the Materials, this “Website”). The terms "us" or "we" or "our"
+                refer to <i>Torabito IOT Dashboard</i>, the owner of this
+                Website. If you are entering into these Terms on behalf of a
+                company or other organization, you hereby represent and warrant
+                that you are authorized to enter into this Terms on behalf of
+                such company or other organization. READ THESE TERMS CAREFULLY
+                BEFORE BROWSING THIS WEBSITE. USING THIS WEBSITE INDICATES THAT
+                YOU HAVE BOTH READ AND ACCEPT THESE TERMS. YOU CANNOT USE THIS
+                WEBSITE IF YOU DO NOT ACCEPT THESE TERMS. THESE TERMS CONTAIN A
+                DISPUTE RESOLUTION AND ARBITRATION PROVISION, INCLUDING A CLASS
+                ACTION WAIVER THAT AFFECTS YOUR RIGHTS UNDER THESE TERMS AND
+                WITH RESPECT TO DISPUTES YOU MAY HAVE WITH
+                <i>Torabito IOT Dashboard</i>. YOU MAY OPT OUT OF THE BINDING
+                INDIVIDUAL ARBITRATION AND CLASS ACTION WAIVER AS PROVIDED
+                BELOW. IF YOU ARE A USER LOCATED IN THE EUROPEAN ECONOMIC AREA,
+                SWITZERLAND OR UNITED KINGDOM, THE DATA PROCESSING ADDENDUM
+                ACCOMPANIES THESE TERMS AND SETS FORTH OTHER TERMS OF OUR
+                AGREEMENT THAT APPLY SOLELY TO THE EXTENT ANY INFORMATION YOU
+                PROVIDE TO <i>Torabito IOT Dashboard</i> INCLUDES PERSONAL DATA
+                OF INDIVIDUALS LOCATED IN THE EUROPEAN ECONOMIC AREA,
+                SWITZERLAND AND THE UNITED KINGDOM.
+              </p>
+              <h2>SCOPE</h2>
+              <p>
+                <i>Torabito IOT Dashboard</i>’s Platform facilitates online
+                scheduling of appointments. You may access and use the Platform
+                in accordance with these Terms. Please note that these Terms
+                govern your use of the Platform, including, but not limited to,
+                the process through which your users schedule appointments with
+                you. When using the features of the Platform you are subject to
+                any agreements, policies or guidelines applicable to such
+                features that may be posted from time to time. All such
+                agreements, policies or guidelines, including the Privacy
+                Policy, the End User License Agreement and the Data Processing
+                Addendum (as applicable) are hereby incorporated by reference
+                into these Terms.
+              </p>
+              <h2>GENERAL USE</h2>
+              <p>
+                We invite you to use this Website for your individual purposes
+                and not for the purposes of reselling ("Permitted Purposes") –
+                enjoy! Subject to these Terms, we grant you a limited, personal,
+                non-exclusive and non-transferable license to use and to display
+                the Materials and a limited, personal, non-exclusive and
+                non-transferable right to access and use the Platform following
+                set-up of a Free Account or Paid Account as set forth below. You
+                have no other rights in the Platform or any Materials and you
+                may not modify, edit, copy, reproduce, create derivative works
+                of, reverse engineer, alter, enhance or in any way exploit any
+                portion of the Platform or the Materials in any manner. If you
+                make copies of any portions of this Website while engaging in
+                Permitted Purposes then we ask that you be sure to keep on the
+                copies all of our copyright and other proprietary notices as
+                they appear on this Website. Subject to these Terms, we also
+                grant you a limited, personal non-exclusive, nontransferable
+                license to download, install and operate any plug-ins, software,
+                information or other content that we may from time to time have
+                specifically identified within the Website as available for
+                download solely in connection with accessing the Platform
+                (“Downloadable Tools”). Such Downloadable Tools are also subject
+                to the additional terms provided to you upon download, including
+                without limitation our End User License Agreement. Our Website
+                is not intended for and may not be used by individuals under 13
+                years of age. By registering for a
+                <i>Torabito IOT Dashboard</i> account, you promise that you are
+                at least 18 years of age.
+              </p>
+              <h2>ACCOUNT SETUP</h2>
+              <p>
+                To use the Platform, you need to set up a
+                <i>Torabito IOT Dashboard</i> account. You may establish either
+                a free account (“Free Account”) or a paid account (“Paid
+                Account”). You are authorized by
+                <i>Torabito IOT Dashboard</i> to set up one Free Account only.
+                <i>Torabito IOT Dashboard</i> reserves the right to terminate
+                any additional Free Accounts set up by you and any Free Accounts
+                that have been inactive over 6 months. When you create an
+                account, we collect registration-related information such as
+                name, address, e-mail and phone number. Once you submit the
+                required registration information, we alone will determine
+                whether or not to approve your proposed account. If approved,
+                you will be sent an e-mail detailing how to complete your
+                registration. For so long as you use the account, you agree to
+                provide true, accurate, current, and complete information which
+                can be accomplished by logging into your account and making
+                relevant changes directly. You are responsible for complying
+                with these Terms when you access this Website, whether directly
+                or through any account that you may setup through or on this
+                Website. Because it is your account, it is your job to obtain
+                and maintain all equipment and services needed for access to and
+                use of this Website as well as paying related charges. It is
+                also your responsibility to maintain the confidentiality of your
+                password(s), including any password of a third-party site that
+                we may allow you to use to access this Website. Should you
+                believe your password or security for this website has been
+                breached in any way, you must immediately notify us.
+                <i>Torabito IOT Dashboard</i> or our billing processors collect
+                your billing information when you upgrade to a Paid Account. All
+                of this registration information is protected in accordance with
+                our Privacy Policy.
+              </p>
+              <h2>SUBSCRIPTION PERIOD AND SUBSCRIPTION FEES</h2>
+              <p>
+                You agree to pay all applicable fees related to your use of this
+                Website and the Platform which are described fully on our
+                pricing page. By providing a payment method, you expressly
+                authorize us to charge the applicable fees on said payment
+                method as well as taxes and other charges incurred thereto at
+                regular intervals, all of which depend on your particular
+                membership and utilized services. The subscription period for
+                Paid Accounts can be month-to-month, yearly, or another duration
+                described more fully on our pricing page. For Free Accounts, the
+                subscription period is month-to-month unless earlier terminated
+                as provided in these Terms. Paid Accounts are subject to fees
+                based upon the account type you've selected. For renewals,
+                <i>Torabito IOT Dashboard</i> will automatically charge your
+                credit card the amount of the then-current fee for your type of
+                account, plus applicable taxes. All payments are non-refundable.
+                To the extent that payment mechanisms are provided through third
+                parties, you agree that <i>Torabito IOT Dashboard</i> will have
+                no liability to you arising out of the acts or omissions of such
+                third parties. BY CREATING A PAID ACCOUNT, YOU CONSENT TO ALLOW
+                <i>Torabito IOT Dashboard</i> TO CHARGE YOUR CREDIT CARD, EITHER
+                DIRECTLY OR THROUGH ITS PAYMENT PROCESSORS, FOR THE AMOUNTS DUE
+                FOR YOUR INITIAL SUBSCRIPTION PERIOD AND FOR ADDITIONAL
+                SUBSCRIPTION PERIODS UNTIL YOUR ACCOUNT IS CANCELED OR
+                TERMINATED. PLEASE PRINT OUT THESE TERMS AND CONDITIONS FOR YOUR
+                RECORDS. RENEWAL/CANCELLATION Paid Accounts will automatically
+                renew for the same Subscription Period unless you cancel the
+                account by the end of the then-current Subscription Period. You
+                can cancel your account at any time by contacting customer
+                service at support@<i>Torabito IOT Dashboard</i>.com.
+                Cancellation will be effective immediately. Please note that
+                after you cancel your account, you will not be able to use or
+                access the Platform and you will not be entitled to a refund of
+                any fees that you've paid.
+              </p>
+              <h2>LEGAL COMPLIANCE</h2>
+              <p>
+                You agree to comply with all applicable domestic and
+                international laws, statutes, ordinances, and regulations
+                regarding your use of our Website.<i>Torabito IOT Dashboard</i>
+                reserves the right to investigate complaints or reported
+                violations of our Terms and to take any action we deem
+                appropriate, including but not limited to canceling your Member
+                account, reporting any suspected unlawful activity to law
+                enforcement officials, regulators, or other third parties and
+                disclosing any information necessary or appropriate to such
+                persons or entities relating to your profile, e-mail addresses,
+                usage history, posted materials, IP addresses and traffic
+                information, as allowed under our Privacy Policy.
+              </p>
+              <h2>INTELLECTUAL PROPERTY</h2>
+              <p>
+                Our Website may contain our service marks or trademarks as well
+                as those of our affiliates or other companies, in the form of
+                words, graphics, and logos. Your use of our Website does not
+                constitute any right or license for you to use such service
+                marks/trademarks, without the prior written permission of the
+                corresponding service mark/trademark owner. Our Website is also
+                protected under international copyright laws. The copying,
+                redistribution, use or publication by you of any portion of our
+                Website is strictly prohibited. Your use of our Website does not
+                grant you ownership rights of any kind in our Website.
+              </p>
+              <h2>ELECTRONIC COMMUNICATIONS</h2>
+              <p>
+                By using the Website, you consent to receiving electronic
+                communications from us. These electronic communications may
+                include notices about applicable fees and charges, transactional
+                information and other information concerning or related to this
+                Website. These electronic communications are part of your
+                relationship with us. You agree that any notices, agreements,
+                disclosures or other communications that we send you
+                electronically will satisfy any legal communication
+                requirements, including that such communications be in writing.
+              </p>
+              <h2>LINKS TO OTHER WEBSITES</h2>
+              <p>
+                Our Website may contain links to third party websites. These
+                links are provided solely as a convenience to you. By linking to
+                these websites, we do not create or have an affiliation with, or
+                sponsor such third party websites. The inclusion of links within
+                our Website does not constitute any endorsement, guarantee,
+                warranty, or recommendation of such third party websites.
+                <i>Torabito IOT Dashboard</i> has no control over the legal
+                documents and privacy practices of third party websites; as
+                such, you access any such third party websites at your own risk.
+              </p>
+              <h2>UNAUTHORIZED ACTIVITIES</h2>
+              <p>
+                To be clear, we authorize your use of this Website only for
+                Permitted Purposes. Any other use of this Website beyond the
+                Permitted Purposes is prohibited and, therefore, constitutes
+                unauthorized use of this Website. This is because as between you
+                and us, all rights in this Website remain our property.
+                Unauthorized use of this Website may result in violation of
+                various United States and international copyright laws. Because
+                we prefer keeping this relationship drama-free, we want to give
+                you examples of things to avoid. So, unless you have written
+                permission from us stating otherwise, you are not authorized to
+                use this Website in any of the following ways (these are
+                examples only and the list below is not a complete list of
+                everything that you are not permitted to do): In a manner that
+                modifies, publicly displays, publicly performs, reproduces or
+                distributes any of this Website; In a manner that violates any
+                local, state, national, foreign, or international statute,
+                regulation, rule, order, treaty, or other law; To stalk, harass,
+                or harm another individual; To impersonate any person or entity
+                or otherwise misrepresent your affiliation with a person or
+                entity; To interfere with or disrupt this Website or servers or
+                networks connected to this Website; To use any data mining,
+                robots, or similar data gathering or extraction methods in
+                connection with this Website; or Attempt to gain unauthorized
+                access to any portion of this Website or any other accounts,
+                computer systems, or networks connected to this Website, whether
+                through hacking, password mining, or any other means.
+              </p>
+              <h2>INDEMNIFICATION</h2>
+              <p>
+                You alone are responsible for any violation of these Terms by
+                you. You agree to indemnify and hold
+                <i>Torabito IOT Dashboard</i>, its parents, subsidiaries,
+                affiliates, officers, agents, employees, resellers or other
+                partners and licensors harmless from any claim, demand, loss, or
+                damages, including reasonable attorneys’ fees, arising out of or
+                related to your Data, or the use thereof, including but not
+                limited to allegations that any processing of your Data by
+                <i>Torabito IOT Dashboard</i> and/or you under this Agreement
+                violates any applicable law or regulation, or infringes the
+                privacy or intellectual property rights of a third party, your
+                User Content, your use of the
+                <i>Torabito IOT Dashboard</i> Properties, your violation of
+                these terms, or your violation of any law.
+              </p>
+              <h2>WARRANTY DISCLAIMER</h2>
+              <p>
+                THE WEBSITE IS PROVIDED "AS IS" AND "WITH ALL FAULTS" AND THE
+                ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE WEBSITE IS
+                WITH YOU. WE EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND
+                (EXPRESS, IMPLIED OR STATUTORY) WITH RESPECT TO THE WEBSITE,
+                WHICH INCLUDES BUT IS NOT LIMITED TO, ANY IMPLIED OR STATUTORY
+                WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR USE OR
+                PURPOSE, TITLE, AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY
+                RIGHTS. THIS MEANS THAT WE DO NOT PROMISE YOU THAT THE WEBSITE
+                IS FREE OF PROBLEMS. Without limiting the generality of the
+                foregoing, we make no warranty that the Website will meet your
+                requirements or that the Website will be uninterrupted, timely,
+                secure, or error free or that defects in the Website will be
+                corrected. We make no warranty as to the results that may be
+                obtained from the use of the Website or as to the accuracy or
+                reliability of any information obtained through the Website. No
+                advice or information, whether oral or written, obtained by you
+                through the Website or from us or our subsidiaries/other
+                affiliated companies will create any warranty. We disclaim all
+                equitable indemnities.
+              </p>
+              <h2>LIMITATION OF LIABILITY</h2>
+              <p>
+                <i>Torabito IOT Dashboard</i> WILL NOT BE LIABLE TO YOU FOR ANY
+                DAMAGES RESULTING FROM YOUR USE OF THE WEBSITE OR YOUR
+                DISPLAYING, COPYING, OR DOWNLOADING ANY MATERIALS TO OR FROM THE
+                WEBSITE. IN NO EVENT WILL <i>Torabito IOT Dashboard</i> BE
+                LIABLE TO YOU FOR ANY INDIRECT, EXTRAORDINARY, EXEMPLARY,
+                PUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+                (INCLUDING LOSS OF DATA, REVENUE, PROFITS, USE OR OTHER ECONOMIC
+                ADVANTAGE) HOWEVER ARISING, EVEN IF WE KNOW THERE IS A
+                POSSIBILITY OF SUCH DAMAGE. <i>Torabito IOT Dashboard</i>’S
+                MAXIMUM AGGREGATE LIABILITY TO YOU IN CONNECTION WITH THESE
+                TERMS OR THE WEBSITE, REGARDLESS OF THE FORM OF ACTION (WHETHER
+                SUCH LIABILITY ARISES DUE TO NEGLIGENCE, BREACH OF CONTRACT,
+                MISREPRESENTATION OR FOR ANY OTHER REASON), WILL AT ALL TIMES BE
+                LIMITED TO THE GREATER OF (I) THE AMOUNT PAID, IF ANY, BY YOU TO
+                <i>Torabito IOT Dashboard</i> IN CONNECTION WITH THESE TERMS IN
+                THE TWELVE (12) MONTHS PRIOR TO THE ACTION GIVING RISE TO
+                LIABILITY OR (II) US $100.00.
+              </p>
+              <h2>LOCAL LAWS; EXPORT CONTROL</h2>
+              <p>
+                We control and operate the Website from our headquarters in the
+                United States of America and the entirety of the Website may not
+                be appropriate or available for use in other locations. If you
+                use the Website outside the United States of America, you are
+                solely responsible for following applicable local laws. DISPUTE
+                RESOLUTION AND ARBITRATION; CLASS ACTION WAIVER. Please Read
+                This Provision Carefully. It Affects Your Legal Rights. This
+                provision facilitates the prompt and efficient resolution of any
+                dispute (with the exception of the enforceability of the Class
+                Action Waiver clause below) that may arise between you and us.
+                Effectively, then, “dispute” is given the broadest meaning
+                enforceable by law and includes any claims against other parties
+                relating to services or products provided or billed to you (such
+                as our licensors, suppliers, dealers or third-party vendors)
+                whenever you also assert claims against us in the same
+                proceeding. This provision provides that all disputes between
+                you and us will be resolved by binding arbitration because
+                acceptance of these Terms constitutes a waiver of your right to
+                litigation claims and all opportunity to be heard by a judge or
+                jury. We prefer this because we believe arbitration is less
+                drama-filled than litigation. To be clear, there is no judge or
+                jury in arbitration, and court review of an arbitration award is
+                limited. The arbitrator must follow this agreement and can award
+                the same damages and relief as a court (including attorney’s
+                fees). YOU AND <i>Torabito IOT Dashboard</i> AGREE THAT, EXCEPT
+                AS PROVIDED BELOW, ANY AND ALL DISPUTES, AS DEFINED ABOVE,
+                WHETHER PRESENTLY IN EXISTENCE OR BASED ON ACTS OR OMISSIONS IN
+                THE PAST OR IN THE FUTURE, WILL BE RESOLVED EXCLUSIVELY AND
+                FINALLY BY BINDING ARBITRATION RATHER THAN IN COURT IN
+                ACCORDANCE WITH THIS PROVISION.
+              </p>
+              <h2>Pre-Arbitration Claim Resolution</h2>
+              <p>
+                For all disputes, you must first give us an opportunity to
+                resolve the dispute which is first done by e-mailing us at
+                support@<i>Torabito IOT Dashboard</i>.com the following
+                information: (1) your name, (2) your address, (3) a written
+                description of your claim, and (4) a description of the specific
+                relief you seek. If we do not resolve the dispute within 45 days
+                after receiving your notification, then you may pursue your
+                dispute in arbitration. You may pursue your dispute in a court
+                only under the circumstances described below.
+              </p>
+              <h2>Arbitration Procedures</h2>
+              <p>
+                If this provision applies and the dispute is not resolved as
+                provided above (Pre-Arbitration Claim Resolution) either you or
+                we may initiate arbitration proceedings. The American
+                Arbitration Association (“AAA”), www.adr.org, or JAMS,
+                www.jamsadr.com, will arbitrate all disputes, and the
+                arbitration will be conducted before a single arbitrator. The
+                arbitration will be commenced as an individual arbitration, and
+                will in no event be commenced as a class arbitration. This
+                provision governs in the event it conflicts with the applicable
+                arbitration rules. Under no circumstances will class action
+                procedures or rules apply to the arbitration. Because this
+                Website and these Terms concern interstate commerce, the Federal
+                Arbitration Act (“FAA”) governs the arbitrability of all
+                disputes. However, the arbitrator will apply applicable
+                substantive law consistent with the FAA and the applicable
+                statute of limitations or condition precedent to suit. You or we
+                may initiate arbitration in either Georgia or the federal
+                judicial district that includes your billing address. In the
+                event that you select the latter, we may transfer the
+                arbitration to Georgia so long as we agree to pay any additional
+                fees or costs which the arbitrator determines you incur as a
+                result of the transfer. So long as you place a request in
+                writing prior to commencement of the arbitration, we will pay
+                all arbitration fees and associated costs and expenses. But, you
+                will still be responsible for all additional fees and costs that
+                you incur in the arbitration which include but are not limited
+                to attorneys’ fees or expert witnesses.
+              </p>
+              <h2>Class Action Waiver</h2>
+              <p>
+                Except as otherwise provided in this provision, the arbitrator
+                may not consolidate more than one person’s claims, and may not
+                otherwise preside over any form of a class or representative
+                proceeding or claims (such as a class action, consolidated
+                action or private attorney general action) unless both you and
+                <i>Torabito IOT Dashboard</i> specifically agree to do so
+                following initiation of the arbitration. If you choose to pursue
+                your dispute in court by opting out of the Arbitration
+                Provision, as specified above, this Class Action Waiver will not
+                apply to you. Neither you, nor any other user of this Website
+                can be a class representative, class member, or otherwise
+                participate in a class, consolidated, or representative
+                proceeding without having complied with the opt-out requirements
+                above.
+              </p>
+              <h2>Other</h2>
+              <p>
+                You understand and agree that by accepting this provision in
+                these Terms, you and we are each waiving the right to a jury
+                trial or a trial before a judge in a public court. If any clause
+                within this provision (other than the Class Action Waiver clause
+                above) is found to be illegal or unenforceable, that clause will
+                be severed from this provision whose remainder will be given
+                full force and effect. If the Class Action Waiver clause is
+                found to be illegal or unenforceable, this entire provision will
+                be unenforceable and the dispute will be decided by a court.
+                This provision will survive the termination of your account with
+                us or our affiliates and your discontinued use of this Website.
+                Notwithstanding any provision in this Agreement to the contrary,
+                we agree that if we make any change to this provision (other
+                than a change to the Notice Address), you may reject any such
+                change and require us to adhere to the language in this
+                provision if a dispute between us arises.
+              </p>
+              <h2>GENERAL TERMS</h2>
+              <p>
+                We think direct communication resolves most issues – if we feel
+                that you are not complying with these Terms, we will likely tell
+                you. We may even provide you with recommended necessary
+                corrective action(s) if possible. However, certain violations of
+                these Terms, as determined by us, may require immediate
+                termination of your access to this Website without prior notice
+                to you. The Federal Arbitration Act, Georgia state law and
+                applicable U.S. federal law, without regard to the choice or
+                conflicts of law provisions, will govern these Terms to the
+                fullest extent permitted by applicable law. Except for disputes
+                subject to arbitration as described above, any disputes relating
+                to these Terms or this Website will be heard in the courts
+                located in Fulton County, Georgia. Except as otherwise set forth
+                in the dispute resolution provision, if any of these Terms are
+                deemed inconsistent with applicable law, then such term(s) will
+                be interpreted to reflect the intentions of the parties, and no
+                other terms will be modified. By choosing not to enforce any of
+                these Terms, we are not waiving our rights. These Terms,
+                together with our Privacy Policy, End User Agreement and the
+                Data Processing Addendum (as applicable), contain the entire
+                agreement between you and us and, therefore, supersede all prior
+                or contemporaneous negotiations, discussions or agreements
+                between <i>Torabito IOT Dashboard</i> and you about the Website
+                and our services. The rights of
+                <i>Torabito IOT Dashboard</i> under our Terms will survive the
+                termination of our Terms.
+              </p>
+              <h2>CHANGES</h2>
+              <p>
+                We may amend our Terms at any time by publishing revised Terms
+                on our Website and/or by sending an e-mail to the address you
+                gave us. The latest copies of our Terms will be posted on our
+                Website, and you should review all Terms prior to using our
+                Website. Continued use of this Website following notice of any
+                such modifications indicates you acknowledge and agree to be
+                bound by the modifications. Therefore, it is important for you
+                to periodically review our Terms to make sure you still agree to
+                them. If you object to any such modifications, your sole
+                recourse will be to cease using this Website.
+                <i>Torabito IOT Dashboard</i> reserves the right to change any
+                and all features of our Website, at any time without notice.
+              </p>
+              <h2>CONTACT US</h2>
+              <p>
+                If you have any questions about these Terms or otherwise need to
+                contact us for any reason, you can reach us at
+                connexion.founder@outlook.comor Pluskiego 74, Wroclaw, Poland
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="privacyAndPolicyModal"
+      tabindex="-1"
+      aria-labelledby="privacyAndPolicyModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="privacyAndPolicyModalLabel">
+              Privacy And Policy
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <div class="big-content">
+                <h1>Privacy Policy</h1>
+                <p>
+                  PixelPlux s.p. zoo (“<i>Torabito IOT Dashboard</i>”, “we”, or
+                  “us”) recognizes the importance of privacy. We want you to
+                  feel confident using our services, and this privacy policy
+                  (“Policy”) is to help you understand and describe how we
+                  collect, use, and disclose information that we obtain about
+                  users of our websites, services, plug-ins, software or other
+                  Downloadable Tools (all of which we refer to as the
+                  “Platform”). This Policy describes the following:
+                </p>
+                <ul>
+                  <li>What information we collect and how it is collected;</li>
+                  <li>How we use the information;</li>
+                  <li>With whom we may share information;</li>
+                  <li>Legal basis for processing the information;</li>
+                  <li>Your rights and choices;</li>
+                  <li>Security and storage of the information;</li>
+                  <li>Third party websites;</li>
+                  <li>Users outside the United States;</li>
+                  <li>California Disclosures; and</li>
+                  <li>Changes to the Policy and Contact Information.</li>
+                </ul>
+                <p>
+                  Throughout this document, we will use a few terms to describe
+                  various roles. <i>Torabito IOT Dashboard</i> Members have
+                  signed up to use our service and created an account.
+                  <i>Torabito IOT Dashboard</i> Users are people who are
+                  scheduling with a<i>Torabito IOT Dashboard</i> Member and have
+                  not registered and created an account with us.
+                </p>
+                <h2>Information We Collect</h2>
+                <p>
+                  We collect information about you directly from you and
+                  automatically through your use of our Platform. We may combine
+                  information automatically collected with other information
+                  that we have collected about you including from publicly
+                  available sources.
+                </p>
+                <p>
+                  In order to help you protect yourself and your information, we
+                  encourage you to provide only that information that is
+                  necessary for using our Platform. For example, to schedule a
+                  meeting you may only need to provide us with a name, email
+                  address, date and time.
+                </p>
+                <p>
+                  <i>Torabito IOT Dashboard</i> is not directed to children
+                  under thirteen (13) years of age and we do not knowingly
+                  collect personal information from children under 13. If we
+                  discover that a child under 13 has provided us with personal
+                  information, we will promptly delete such personal information
+                  from our systems.
+                </p>
+                <h2>Information You Provide Voluntarily</h2>
+                <p>
+                  Appointment Information. When a
+                  <i>Torabito IOT Dashboard</i> User comes to
+                  <i>Torabito IOT Dashboard</i> to schedule an event with a
+                  <i>Torabito IOT Dashboard</i> Member, you voluntarily give us
+                  certain information. This can include your name, email address
+                  and phone number; email addresses of other people; subject of
+                  the meeting; and any other information you provide us or as
+                  required by the<i>Torabito IOT Dashboard</i> Member you are
+                  scheduling with. If you receive an invitation from a
+                  <i>Torabito IOT Dashboard</i> Member but do not wish to become
+                  a <i>Torabito IOT Dashboard</i> User, please contact the
+                  <i>Torabito IOT Dashboard</i> Member who sent the invitation
+                  through other means to set up your meeting.
+                </p>
+                <p>
+                  A <i>Torabito IOT Dashboard</i> Member may also connect their
+                  calendar with <i>Torabito IOT Dashboard</i>. Our calendar
+                  integration only checks the duration and free/busy status of
+                  the events in your calendar so that we don't book you when
+                  you're busy. We never store who you're meeting with, their
+                  email, the meeting title or any other details about the
+                  appointments in your connected calendar.
+                </p>
+                <p>
+                  Account Information. <i>Torabito IOT Dashboard</i> Members may
+                  give us permission to access their information in other
+                  services. For example, with your consent, you may link your
+                  <i>Torabito IOT Dashboard</i> account with your Google,
+                  Microsoft Office 365 account, or other similar service, which
+                  allows us to obtain information from those accounts (like your
+                  basic profile or contacts). The information we get from those
+                  services often depends on your settings or their privacy
+                  policies, so be sure to check what those are. Billing
+                  Information. If you purchase a premium version of<i
+                    >Torabito IOT Dashboard</i
+                  >, our third-party payment processors will collect and store
+                  your billing address and credit card information. We store the
+                  last four digits of your credit card number, card type and the
+                  expiration date.
+                </p>
+                <h2>Information Collected Automatically</h2>
+                <p>
+                  Like many websites, we and our service providers use cookies,
+                  web beacons and other technologies to receive and store
+                  certain types of information when you interact with us through
+                  your computer or mobile device subject to your opt-out
+                  preferences (see Your Rights and Choices section below). Using
+                  these technologies helps us customize your experience with our
+                  Services, improve your experience, and tailor marketing
+                  messages. Here are some of the types of information we
+                  collect:
+                </p>
+                <p>
+                  Log &amp; Device data. When you use
+                  <i>Torabito IOT Dashboard</i>, our servers automatically
+                  record information (“log data”), including information that
+                  your browser sends whenever you visit our Website. This log
+                  data may include your web address you came from or are going
+                  to, your device model, operating system, browser type, unique
+                  device identifier, IP address, mobile network carrier, and
+                  time zone or location. Whether we collect some or all of this
+                  information often depends on what type of device you’re using
+                  and its settings. For example, different types of information
+                  are available depending on whether you’re using a Mac or a PC,
+                  or an iPhone or an Android phone. To learn more about what
+                  information your device makes available to us, please check
+                  the policies of your device manufacturer or software provider.
+                </p>
+                <h2>Cookies and Other Tracking Mechanisms</h2>
+                <p>
+                  Cookie data. Depending on how you’re accessing our products
+                  and subject to your opt-out preferences, we may use “cookies”
+                  (a small text file sent by your computer each time you visit
+                  our website, unique to your
+                  <i>Torabito IOT Dashboard</i> account or your browser) or
+                  similar technologies to record log data. When we use cookies,
+                  we may use “session” cookies (that last until you close your
+                  browser) or “persistent” cookies (that last until you or your
+                  browser delete them). For example, we may use cookies to keep
+                  you logged in to<i>Torabito IOT Dashboard</i>. Some of the
+                  cookies we use are associated with your
+                  <i>Torabito IOT Dashboard</i>account (including personal
+                  information about you, such as the email address you gave us),
+                  and other cookies are not. To help us make emails more useful
+                  and interesting, we often receive a confirmation when you open
+                  email from <i>Torabito IOT Dashboard</i> if your computer
+                  supports such capabilities. You can opt out of receiving
+                  emails from us. Please see the Your Rights and Choices section
+                  below. Other Web Site Analytics Services. Subject to your
+                  opt-out preferences (see Your Rights and Choices below), we
+                  use third party service providers such as Google Analytics to
+                  provide certain analytics and user interactions services to
+                  <i>Torabito IOT Dashboard</i> in connection with our operation
+                  of our Platform, including the collection and tracking of
+                  certain data and information regarding the characteristics and
+                  activities of visitors <i>Torabito IOT Dashboard</i>. You may
+                  opt-out of Google Analytics’ and Mixpanel’s cookies using
+                  Opt-Out Features on their respective websites.
+                </p>
+                <h2>How We Use Your Information</h2>
+                <p>
+                  We may use information that we collect about you, including
+                  personal information, to:
+                </p>
+                <p>
+                  Provide the <i>Torabito IOT Dashboard</i> Service. We will use
+                  your information to provide our Platform and services to you;
+                  to facilitate scheduling; to manage your account; to respond
+                  to your inquiries; and for other customer service and support
+                  purposes. We use the payment information you provide to us in
+                  order to alert you of past, current, and upcoming charges, to
+                  allow us to present the billing history to you on your billing
+                  page in the platform, and to perform internal finance
+                  processes, such as looking the status of a credit card charge.
+                  In the event of a credit card dispute, we also share account
+                  information with your bank to verify the legitimacy of a
+                  charge. Understand and improve our products. We will perform
+                  research and analysis about your use of, or interest in, our
+                  products, services, or content, or products, services or
+                  content offered by others. We do this to help make our
+                  products better and to develop new products. Communicate with
+                  you.
+                </p>
+                <p>
+                  Service related communications. We may send you service and
+                  administrative emails to ensure the service is working
+                  properly. We will also email you regarding your calendar
+                  appointments. These messages are considered part of the
+                  service and you may not opt out of these messages.
+                  Promotional. Subject to your opt-out preference, we may send
+                  you emails about new product features or other news about<i
+                    >Torabito IOT Dashboard</i
+                  >
+                  or on topics we think would be relevant to you. You may opt
+                  out of receiving these communications at any time. Visit the
+                  Your Rights and Choices section below. For
+                  <i>Torabito IOT Dashboard</i> users who are not<i
+                    >Torabito IOT Dashboard</i
+                  >
+                  Members, please be assured that we do not use the email
+                  addresses that you enter through email invitations to send any
+                  type of direct marketing. Responding to your requests. We will
+                  also use your information to respond to your questions or
+                  comments. Administrative. We may contact you to inform you
+                  about changes in our services, our service offering and other
+                  important service related notices, such as changes to the
+                  Policy or about security or fraud notices. Advertising.
+                  Subject to your opt-out preferences, we may develop and
+                  display content and advertising tailored to your interests on
+                  our services and other sites. See Your Rights and Choices
+                  below. Protecting Rights and Interests. We will use your
+                  information to protect our rights and interests as well as the
+                  rights and interests of our users and any other person, as
+                  well as to enforce this Policy or our Terms of Service. Legal
+                  Compliance. We may use your information to comply with
+                  applicable legal or regulatory obligations, including informal
+                  requests from law enforcement or other governmental
+                  authorities. Other. We also may use your information to manage
+                  our business or perform functions as otherwise described to
+                  you at the time of collection subject to your consent. Please
+                  read all online agreements carefully before accepting them.
+                </p>
+                <h2>With Whom We May Share Your Information</h2>
+                <p>
+                  We do not share your personal information with others except
+                  as indicated within this Policy or when we inform you and give
+                  you an opportunity to opt out of having your personal
+                  information shared.
+                </p>
+                <p>
+                  We will share information we collect about you, including
+                  personal information, in the following ways:
+                </p>
+                <p>
+                  With third party service providers, agents, or contractors. We
+                  use other companies, agents or contractors ("Service
+                  Providers") to perform services on our behalf or to assist us
+                  with providing services to you. For example, we may engage
+                  Service Providers to process credit card transactions or other
+                  payment methods. Or, we may engage Service Providers to
+                  provide services such as marketing, advertising,
+                  communications, infrastructure and IT services, to provide
+                  customer service, to collect debts, and to analyze and enhance
+                  data (including data about users' interactions with our
+                  service). These Service Providers may have access to your
+                  personal or other information in order to provide these
+                  functions. In addition, some of the information we request may
+                  be collected by third party providers on our behalf. We
+                  require our Service Providers to agree to take reasonable
+                  steps to keep the personal information that we provide to them
+                  secure. We do not authorize them to use or disclose your
+                  personal information except in connection with providing their
+                  services. Affiliates. We may disclose your information to
+                  current or future affiliates or subsidiaries for research,
+                  marketing, and other purposes consistent with this Privacy
+                  Policy. To comply with legal process or to protect<i
+                    >Torabito IOT Dashboard</i
+                  >
+                  and our users and members. We may share your data: if we
+                  believe that disclosure is reasonably necessary to comply with
+                  a law, regulation, legal or governmental request; to respond
+                  to a subpoena, court order, warrant, or other legal process;
+                  to enforce applicable terms of use or this Policy, including
+                  investigation of potential violations thereof; to protect the
+                  safety, rights, or property of the public, any person, or
+                  <i>Torabito IOT Dashboard</i>; to detect, prevent, or
+                  otherwise address, security, or technical issues or illegal or
+                  suspected illegal activities (including fraud); or as evidence
+                  in litigation in which we are involved, as part of a judicial
+                  or regulatory proceeding. Business Transfers. We may engage in
+                  a merger, acquisition, bankruptcy, dissolution,
+                  reorganization, or similar transaction or proceeding that
+                  involves the transfer of the information described in this
+                  Policy. In such transactions, customer information is
+                  typically one of the business assets that is transferred or
+                  acquired by a third party. If we are acquired by or merged
+                  with another company, if we sell or transfer a business unit
+                  or assets to another company, in the unlikely event of a
+                  bankruptcy proceeding, or as part of any other similar
+                  business transfer, you acknowledge that such transfers may
+                  occur. Aggregate or De-identified Information. We may disclose
+                  aggregate, anonymous, or de-identified information about users
+                  for marketing, advertising, research, compliance, or other
+                  purposes.
+                </p>
+                <h2>Legal Basis for Processing Your Information</h2>
+                <p>
+                  We rely on the following legal grounds to process your
+                  personal information:
+                </p>
+                <p>
+                  Consent. We may use your personal information as described in
+                  this Policy subject to your consent. To withdraw your consent,
+                  please contact us at connexion.founder@outlook.com. You may
+                  also refrain from providing, or withdraw, your consent for
+                  cookies. Please see Your Rights and Choices below for more
+                  information on opt-outs. Performance of a contract. We may
+                  need to collect and use your personal information of
+                  <i>Torabito IOT Dashboard</i> Members and
+                  <i>Torabito IOT Dashboard</i> Users, as applicable, to perform
+                  our contractual obligations. Legitimate Interests. We may use
+                  your personal information for our legitimate interests to
+                  provide our Platform and services and to improve our services
+                  and the content on our Platform. We process information on
+                  behalf of our customers who have legitimate interests in
+                  operating their businesses. We may use technical information
+                  as described in this Policy and use personal information for
+                  our marketing purposes consistent with our legitimate
+                  interests and any choices that we offer or consents that may
+                  be required under applicable law.
+                </p>
+                <h2>Your Rights and Choices</h2>
+                <p>
+                  In order to keep your personal information accurate and
+                  complete, you can log in to review and update your account
+                  information, including contact and billing information, via
+                  your account settings page. You may also contact us to request
+                  information about the personal data we have collected from you
+                  and to request the correction, modification or deletion of
+                  such personal information. We will do our best to honor your
+                  requests subject to any legal and contractual obligations. If
+                  you would like to make a request, cancel your account or
+                  request we delete or no longer use your account information to
+                  provide you Services, contact us at
+                  connexion.founder@outlook.com or the address set forth at the
+                  end of this Policy. Subject to applicable law, we will retain
+                  and use your account information only as necessary to comply
+                  with our legal obligations, resolve disputes and enforce our
+                  agreements. E-mail. As described above, if you do not wish to
+                  receive promotional emails from us, you may opt out at any
+                  time by following the opt-out link contained in the email
+                  itself. Please note that it may take up to ten (10) days to
+                  process your request. Please also note that if you opt out of
+                  receiving marketing communications from us, we may continue to
+                  send to you service-related emails which are not available for
+                  opt-out. If you do not wish to receive any service-related
+                  emails from us, you have the option to deactivate your
+                  account. Cookies. You may also refrain from providing, or
+                  withdraw, your consent for cookies. Your browser’s help
+                  function should contain instructions on how to set your
+                  computer to accept all cookies, to notify you when a cookie is
+                  issued, or to not receive cookies at any time. Third Party
+                  Analytics Services. Some of the services used provide the
+                  ability to opt-out. You may opt-out of Google Analytics’ and
+                  Mixpanel’s services using Opt-Out Features on their respective
+                  websites.
+                </p>
+                <p>
+                  The Google Analytics service is provided by Google Inc. You
+                  can opt-out from Google Analytics service from using your
+                  information by installing the Google Analytics Opt-out Browser
+                  tool: tools.google.com/dlpage/gaoptout. For more information
+                  on the privacy practices of Google, please visit the Google
+                  Privacy &amp; Terms web page: www.google.com/policies/privacy.
+                </p>
+                <p>
+                  Additional Rights. Subject to local law, you may have
+                  additional rights under the laws of your jurisdiction
+                  regarding your personal data, such as the right to complain to
+                  your local data protection authority. Security and Storage of
+                  Information We have taken reasonable steps to help protect the
+                  personal information we collect. These measures include using
+                  SSL encryption and two-factor authentication. Unfortunately,
+                  no measures can be guaranteed to provide 100% security.
+                  Accordingly, we cannot guarantee the security of your
+                  information in all circumstances.
+                </p>
+                <p>
+                  You should take steps to protect against unauthorized access
+                  to your device and account by, among other things, choosing a
+                  robust password that nobody else knows or can easily guess and
+                  keeping your log-in and password private. We are not
+                  responsible for any lost, stolen, or compromised passwords or
+                  for any activity on your account via unauthorized password
+                  activity.
+                </p>
+                <p>
+                  We retain the personal data we collect for so long as
+                  reasonably necessary to fulfill the purposes for which the
+                  data was collected, to perform our contractual and legal
+                  obligations, and for any applicable statute of limitations
+                  periods for the purposes of bringing and defending claims.
+                </p>
+                <h2>Third-Party Links</h2>
+                <p>
+                  Our Platform may contain links to third-party websites and
+                  applications. Subject to your opt-out preferences (see Your
+                  Rights and Choices), we may also use third-party advertisers,
+                  ad networks, and other advertising, marketing, and promotional
+                  companies, to serve advertisements on our websites. Any access
+                  to and use of such linked websites and applications is not
+                  governed by this Policy but instead is governed by the privacy
+                  policies of those third parties. We do not endorse these
+                  parties, their content, or any products and services they
+                  offer, and we do not endorse these parties, their content, or
+                  any products and services they offer, and we are not
+                  responsible for the information practices of such third-party
+                  websites or applications.
+                </p>
+                <h2>Users Outside the USA</h2>
+                <p>
+                  Our application and database servers are located with Amazon
+                  Cloud Services in the United States. Amazon Cloud Services has
+                  certified with the Department of Commerce that it adheres to
+                  the Privacy Shield Principles under the EU-U.S. and Swiss-U.S.
+                  Privacy Shield frameworks. If you are an individual located in
+                  the European Economic Area, the United Kingdom, Canada or
+                  another jurisdiction outside of the United States with laws
+                  and regulations governing personal data collection, use, and
+                  disclosure that differ from United States laws, please be
+                  aware that information we collect (including through the use
+                  of methods such as cookies and other web technologies) will be
+                  processed and stored in the United States or in other
+                  countries where we or our third-party services providers have
+                  operations. By submitting your personal information to
+                  <i>Torabito IOT Dashboard</i> and using
+                  <i>Torabito IOT Dashboard</i>, you expressly consent to having
+                  your personal data transferred to, processed, and stored in
+                  the United States or another jurisdiction which may not offer
+                  the same level of privacy protection as those in the country
+                  where you reside or are a citizen.
+                </p>
+                <h2>California Disclosures</h2>
+                <p>
+                  California Information-Sharing Disclosure. California
+                  residents may request a list of all third parties with respect
+                  to which we have disclosed any information about you for
+                  direct marketing purposes and the categories of information
+                  disclosed. If you are a California resident and want such a
+                  list, please send us a written request by email to
+                  connexion.founder@outlook.com with “California Privacy Rights”
+                  in the subject line. Do Not Track. We do not currently
+                  recognize or respond to browser-initiated Do Not Track signals
+                  as there is no consistent industry standard for compliance.
+                </p>
+                <h2>Changes to the Policy</h2>
+                <p>
+                  This Policy is current as of the Effective Date set forth
+                  above. We may change this Policy from time to time, and if we
+                  do we’ll post any changes, including any material changes, on
+                  this page, so please be sure to check back periodically. If
+                  you continue to use <i>Torabito IOT Dashboard</i> after those
+                  changes are in effect, you agree to the revised Policy.
+                </p>
+                <h2>Contacting Us</h2>
+                <p>
+                  If you have any questions or comments about this policy,
+                  please contact us at connexion.founder@outlook.com or
+                  Pluskiego 74, Wroclaw, Poland
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".scroll-to").on("click", function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          var offset = $(this).data("offset");
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top - (offset || 80),
+            },
+            800
+          );
+        }
+      });
+
+      $.fn.parallax = function (resistance, mouse) {
+        $el = $(this);
+        TweenLite.to($el, 0.2, {
+          x: -((mouse.clientX - window.innerWidth / 2) / resistance),
+          y: -((mouse.clientY - window.innerHeight / 2) / resistance),
+        });
+      };
+
+      $(".header-section").mousemove(function (e) {
+        $(".slide1").parallax(60, e);
+        $(".slide2").parallax(-60, e);
+      });
+
+      $("body").scrollspy({ target: "#list-spy", offset: 150 });
+    });
+
+    var OSName = "Windows";
+    var OSHref = "releases/torabito-win32-x64/torabito-win32-x64.exe";
+    if (navigator.appVersion.indexOf("Win") != -1) {
+      OSName = "Windows";
+      if (
+        navigator.userAgent.indexOf("Win64") != -1 &&
+        navigator.userAgent.indexOf("x64") != -1
+      ) {
+        OSHref = "releases/torabito-win32-x64/torabito-win32-x64.exe";
+      } else {
+        OSHref = "releases/torabito-win32-x86/torabito-win32-x86.exe";
+      }
+    }
+    if (navigator.appVersion.indexOf("Mac") != -1) {
+      OSName = "MacOS";
+      OSHref = "releases/torabito-mac-installer/TorabitoInstaller.pkg";
+    }
+    if (navigator.appVersion.indexOf("X11") != -1) {
+      OSName = "UNIX";
+      OSHref = "#";
+    }
+    if (navigator.appVersion.indexOf("Linux") != -1) {
+      OSName = "Linux";
+      OSHref = "#";
+    }
+
+    document
+      .getElementById("download-client-platform")
+      .setAttribute("href", "./" + OSHref);
+    document.getElementById("client-platform").innerText = OSName;
+  </script>
+</html>
