@@ -584,6 +584,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/bar-chart/bar-chart.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/bar-chart/bar-chart.component.html ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div [id]=\"divId\" style=\"width: 100%; height: 275px\"></div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/blockly/blockly.component.html":
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/blockly/blockly.component.html ***!
@@ -714,6 +727,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-activity-times/device-activity-times.component.html":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-activity-times/device-activity-times.component.html ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-card title=\"All Activity Times\">\n  <div class=\"row device-activity-wrapper\">\n    <div class=\"col-xs-4 device-activity-item\">\n      <div>\n        <span class=\"activity-label\">\n          <i class=\"icon-historyrestore text-primary\"></i>\n          CONNECT\n        </span>\n      </div>\n      <div class=\"activity-value\">385H - 20M - 20S</div>\n    </div>\n    <div class=\"col-xs-4 device-activity-item\">\n      <div>\n        <span class=\"activity-label\">\n          <i class=\"icon-highlight_remove text-danger\"></i>\n          INACTIVE\n        </span>\n      </div>\n      <div class=\"activity-value\">13H - 5M - 53S</div>\n    </div>\n    <div class=\"col-xs-4 device-activity-item\">\n      <div>\n        <span class=\"activity-label\">\n          <i class=\"icon-check_circle_outline text-success\"></i>\n          ACTIVE\n        </span>\n      </div>\n      <div class=\"activity-value\">372H - 14M - 37S</div>\n    </div>\n  </div>\n</app-card>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-data-report/device-data-report.component.html":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-data-report/device-data-report.component.html ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-card title=\"Get Report From Stored Data\" class=\"report-card\">\n  <div class=\"row device-data-report\">\n    <div class=\"col-xs-12 device-data-report-item\">\n      <div>\n        <div class=\"date-input\">\n          <i class=\"icon-date_range\"></i>\n          <input\n            type=\"text\"\n            ngxDaterangepickerMd\n            placeholder=\"Pick Two Dates\"\n          />\n        </div>\n      </div>\n      <div>\n        <select class=\"form-control\">\n          <option value=\"csv\">\n            <i class=\"icon-date_range\"></i>\n            Export CSV\n          </option>\n          <option value=\"excel\">Export Excel</option>\n        </select>\n      </div>\n      <div>\n        <app-button type=\"primary\" value=\"Run Report\"></app-button>\n      </div>\n    </div>\n  </div>\n</app-card>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-single/device-single.component.html":
 /*!*****************************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-single/device-single.component.html ***!
@@ -723,7 +762,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-card style=\"flex: 1\" [title]=\"titleLabel\" [description]=\"descriptionLabel\">\n  <form class=\"form-wrapper\" [formGroup]=\"form\">\n    <app-form-text\n      formControlName=\"name\"\n      type=\"text\"\n      field=\"name\"\n      [res]=\"res\"\n      [label]=\"translations.devices.deviceName\"\n      placeholder=\"Device name\"\n    ></app-form-text>\n\n    <app-form-text\n      formControlName=\"imei\"\n      field=\"imei\"\n      [label]=\"translations.devices.imei\"\n      [res]=\"res\"\n      placeholder=\"Device IMEI\"\n    ></app-form-text>\n\n    <app-form-select\n      formControlName=\"preset\"\n      field=\"preset\"\n      [label]=\"translations.devices.preset\"\n      [items]=\"devicePresets\"\n      [res]=\"res\"\n      placeholder=\"Preset\"\n    ></app-form-select>\n\n    <div class=\"form-button-wrapper\">\n      <app-button\n        type=\"primary\"\n        (click)=\"submit()\"\n        [value]=\"submitLabel\"\n      ></app-button>\n    </div>\n  </form>\n</app-card>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-card style=\"flex: 1\" [title]=\"titleLabel\" [description]=\"descriptionLabel\">\n  <form class=\"form-wrapper\" [formGroup]=\"form\">\n    <app-form-text\n      formControlName=\"name\"\n      type=\"text\"\n      field=\"name\"\n      [res]=\"res\"\n      [label]=\"translations.devices.deviceName\"\n      placeholder=\"Device name\"\n    ></app-form-text>\n\n    <app-form-text\n      formControlName=\"imei\"\n      field=\"imei\"\n      [label]=\"translations.devices.imei\"\n      [res]=\"res\"\n      placeholder=\"Device IMEI\"\n    ></app-form-text>\n\n    <app-form-select\n      formControlName=\"preset\"\n      field=\"preset\"\n      [label]=\"translations.devices.preset\"\n      [items]=\"devicePresets\"\n      [res]=\"res\"\n      placeholder=\"Preset\"\n    ></app-form-select>\n\n    <div class=\"form-button-wrapper\">\n      <app-button\n        type=\"primary\"\n        (click)=\"submit()\"\n        [value]=\"submitLabel\"\n      ></app-button>\n    </div>\n\n    <app-form-text\n      [formControl]=\"sampleInput\"\n      field=\"Sample input\"\n      label=\"Sample input data\"\n    ></app-form-text>\n\n    <pre>{{ blend | json }}</pre>\n    <div>\n      <div style=\"display: flex; flex: 1\">\n        <div\n          dragula=\"DRAGULA_FACTS\"\n          style=\"\n            background: silver;\n            width: 300px;\n            padding: 15px;\n            line-height: 30px;\n          \"\n        >\n          <div *ngFor=\"let item of availableBlender\">{{ item.name }}</div>\n        </div>\n        <div\n          dragula=\"DRAGULA_FACTS\"\n          style=\"\n            background: yellow;\n            width: 300px;\n            padding: 15px;\n            line-height: 30px;\n          \"\n        >\n          <div>Drop here</div>\n        </div>\n      </div>\n    </div>\n  </form>\n</app-card>\n");
 
 /***/ }),
 
@@ -749,7 +788,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div style=\"flex: 1\">\n  <app-spinner text=\"Loading...\" *ngIf=\"loading\"></app-spinner>\n\n  <app-card title=\"Devices\">\n    <ng-container *ngIf=\"hasNoDevice\">\n      You have no devices connected.\n    </ng-container>\n\n    <ngx-datatable\n      class=\"material\"\n      *ngIf=\"!hasNoDevice\"\n      [rows]=\"devices\"\n      (activate)=\"onActivate($event)\"\n      [columns]=\"[\n        { name: 'id', prop: 'id' },\n        { name: 'name', prop: 'name' }\n      ]\"\n      [columnMode]=\"ColumnMode.force\"\n      [headerHeight]=\"50\"\n      [footerHeight]=\"50\"\n      rowHeight=\"auto\"\n      (activate)=\"select($event)\"\n      [externalPaging]=\"true\"\n      [count]=\"page.count\"\n      [offset]=\"page.offset\"\n      [limit]=\"page.limit\"\n      (page)=\"setPage($event)\"\n    >\n      <ngx-datatable-column name=\"Id\" [width]=\"100\">\n        <ng-template\n          let-value=\"value\"\n          let-row=\"row\"\n          ngx-datatable-cell-template\n        >\n          {{ row.id }}\n        </ng-template>\n      </ngx-datatable-column>\n\n      <ngx-datatable-column name=\"Name\">\n        <ng-template\n          let-row=\"row\"\n          let-value=\"value\"\n          ngx-datatable-cell-template\n        >\n          {{ row.name || 'Unnamed device' }}\n        </ng-template>\n      </ngx-datatable-column>\n\n      <ngx-datatable-column name=\"Actions\" [width]=\"50\">\n        <ng-template\n          let-row=\"row\"\n          let-value=\"value\"\n          ngx-datatable-cell-template\n        >\n          <app-button\n            (click)=\"deleteItem($event, row)\"\n            value=\"Delete\"\n          ></app-button>\n        </ng-template>\n      </ngx-datatable-column>\n    </ngx-datatable>\n  </app-card>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div style=\"flex: 1\">\n  <app-spinner text=\"Loading...\" *ngIf=\"loading\"></app-spinner>\n\n  <app-card title=\"Devices\">\n    <ng-container *ngIf=\"hasNoDevice\">\n      You have no devices connected.\n    </ng-container>\n\n    <ngx-datatable\n      class=\"material striped\"\n      *ngIf=\"!hasNoDevice\"\n      [rows]=\"devices\"\n      (activate)=\"onActivate($event)\"\n      [columns]=\"[\n        { name: 'id', prop: 'id' },\n        { name: 'name', prop: 'name' }\n      ]\"\n      [columnMode]=\"ColumnMode.force\"\n      [headerHeight]=\"50\"\n      [footerHeight]=\"50\"\n      rowHeight=\"auto\"\n      (activate)=\"select($event)\"\n      [externalPaging]=\"true\"\n      [count]=\"page.count\"\n      [offset]=\"page.offset\"\n      [limit]=\"page.limit\"\n      (page)=\"setPage($event)\"\n    >\n      <ngx-datatable-column name=\"Id\" [width]=\"100\">\n        <ng-template\n          let-value=\"value\"\n          let-row=\"row\"\n          ngx-datatable-cell-template\n        >\n          {{ row.id }}\n        </ng-template>\n      </ngx-datatable-column>\n\n      <ngx-datatable-column name=\"Name\">\n        <ng-template\n          let-row=\"row\"\n          let-value=\"value\"\n          ngx-datatable-cell-template\n        >\n          {{ row.name || 'Unnamed device' }}\n        </ng-template>\n      </ngx-datatable-column>\n\n      <ngx-datatable-column name=\"Actions\" [width]=\"50\">\n        <ng-template\n          let-row=\"row\"\n          let-value=\"value\"\n          ngx-datatable-cell-template\n        >\n          <app-button\n            (click)=\"deleteItem($event, row)\"\n            value=\"Delete\"\n          ></app-button>\n        </ng-template>\n      </ngx-datatable-column>\n    </ngx-datatable>\n  </app-card>\n</div>\n");
 
 /***/ }),
 
@@ -883,6 +922,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/line-chart/line-chart.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/line-chart/line-chart.component.html ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div [id]=\"divId\" style=\"width: 100%; height: 275px\"></div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/loading/loading.component.html":
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/loading/loading.component.html ***!
@@ -918,7 +970,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav id=\"app-navbar\">\n  <!-- Left side -->\n  <div class=\"d-flex\">\n    <app-button\n      type=\"primary\"\n      (click)=\"openCSVImport()\"\n      icon=\"icon-device_hub\"\n      value=\"Import\"\n    ></app-button>\n    <app-button\n      type=\"success\"\n      (click)=\"openDevicesTab()\"\n      icon=\"icon-device_hub\"\n      value=\"Devices\"\n    ></app-button>\n\n    <app-button\n      type=\"default\"\n      icon=\"icon-add_to_queue\"\n      (click)=\"listenToPort()\"\n      value=\"Open port\"\n    ></app-button>\n    <app-button\n      type=\"default\"\n      icon=\"icon-add_to_queue\"\n      (click)=\"openNewDevice()\"\n      value=\"New device\"\n    ></app-button>\n  </div>\n\n  <!-- Right side -->\n  <div class=\"d-flex flex-reverse\">\n    <app-button\n      (click)=\"openRealtimeTab()\"\n      type=\"succes-light\"\n      icon=\"icon-timeline\"\n      value=\"Realtime\"\n    ></app-button>\n    <app-button\n      type=\"default\"\n      icon=\"icon-settings\"\n      (click)=\"showSettings()\"\n    ></app-button>\n    <app-connection-status></app-connection-status>\n  </div>\n</nav>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav id=\"app-navbar\">\n  <!-- Left side -->\n  <div class=\"d-flex\">\n    <app-button\n      type=\"primary\"\n      (click)=\"openCSVImport()\"\n      icon=\"icon-device_hub\"\n      value=\"Import\"\n    ></app-button>\n    <app-button\n      type=\"success\"\n      (click)=\"openDevicesTab()\"\n      icon=\"icon-device_hub\"\n      value=\"Devices\"\n    ></app-button>\n\n    <app-button\n      type=\"default\"\n      icon=\"icon-add_to_queue\"\n      (click)=\"listenToPort()\"\n      value=\"Open port\"\n    ></app-button>\n    <app-button\n      type=\"default\"\n      icon=\"icon-add_to_queue\"\n      (click)=\"openNewDevice()\"\n      value=\"New device\"\n    ></app-button>\n    <app-button\n      type=\"default\"\n      icon=\"icon-timeline\"\n      (click)=\"openTemperatureView()\"\n    ></app-button>\n  </div>\n\n  <!-- Right side -->\n  <div class=\"d-flex flex-reverse\">\n    <app-button\n      (click)=\"openRealtimeTab()\"\n      type=\"succes-light\"\n      icon=\"icon-timeline\"\n      value=\"Realtime\"\n    ></app-button>\n    <app-button\n      type=\"default\"\n      icon=\"icon-settings\"\n      (click)=\"showSettings()\"\n    ></app-button>\n    <app-connection-status></app-connection-status>\n  </div>\n</nav>\n");
 
 /***/ }),
 
@@ -1101,6 +1153,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"tabs-wrapper\">\n  <div class=\"tabs-header\" [class.fullWidth]=\"fullWidth\">\n    <div\n      class=\"tab-label\"\n      (click)=\"selectTab(item)\"\n      [class.active]=\"activeTab === item\"\n      *ngFor=\"let item of tabItems$ | async\"\n    >\n      <span *ngIf=\"item.labelComponent\">\n        <span *ngTemplateOutlet=\"item.labelComponent.labelContent\"> </span>\n      </span>\n\n      <span *ngIf=\"!item.labelComponent\">\n        {{ item.label }}\n      </span>\n    </div>\n  </div>\n\n  <div class=\"tabs-body\">\n    <perfect-scrollbar\n      class=\"scroll-container child-tab-body-scroll-container\"\n      [scrollIndicators]=\"false\"\n      [config]=\"config\"\n    >\n      <ng-container *ngIf=\"activeTab && activeTab.bodyComponent\">\n        <ng-container *ngTemplateOutlet=\"activeTab.bodyComponent.bodyContent\">\n        </ng-container>\n      </ng-container>\n    </perfect-scrollbar>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/temperature-overview/temperature-overview.component.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/temperature-overview/temperature-overview.component.html ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<app-card title=\"Temperture Data Overview\">\n  <div class=\"row temperture-overview-wrapper\">\n    <div *ngFor=\"let item of data\" class=\"col-xs-4 temperture-overview-item\">\n      <div>\n        <span class=\"temperture-value\">{{ item.value }} C°</span>\n        <span [class]=\"'temperture-diff ' + item.percentageType\"\n          >{{ item.percentageType == 'pos' ? '+' : '-' }}{{ item.percentage }}%\n          <i class=\"icon-call_made\"></i\n        ></span>\n      </div>\n      <div class=\"temperture-label\">{{ item.type }} Tempereture</div>\n    </div>\n\n    <div class=\"col-xs-4 temperture-overview-item\">\n      <div>\n        <span class=\"temperture-value\">27.3 C°</span>\n        <span class=\"temperture-diff pos\"\n          >+2,3% <i class=\"icon-call_made\"></i\n        ></span>\n      </div>\n      <div class=\"temperture-label\">Minimum Tempereture</div>\n    </div>\n    <div class=\"col-xs-4 temperture-overview-item\">\n      <div>\n        <span class=\"temperture-value\">36 C°</span>\n        <span class=\"temperture-diff neg\"\n          >+1.8% <i class=\"icon-call_made\"></i\n        ></span>\n      </div>\n      <div class=\"temperture-label\">Maximum Tempereture</div>\n    </div>\n    <div class=\"col-xs-4 temperture-overview-item\">\n      <div>\n        <span class=\"temperture-value\">31.8 C°</span>\n        <span class=\"temperture-diff pos\"\n          >+2.05% <i class=\"icon-call_made\"></i\n        ></span>\n      </div>\n      <div class=\"temperture-label\">Average Tempereture</div>\n    </div>\n  </div>\n</app-card>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/temperature-view/temperature-view.component.html":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/temperature-view/temperature-view.component.html ***!
+  \***********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"temperature-view-wrapper\">\n  <div class=\"row filter-bar\">\n    <div class=\"col-xs-9 d-flex left-side\">\n      <div>\n        <app-button\n          [type]=\"isLive ? 'default' : 'primary'\"\n          value=\"Usage Reports\"\n          (click)=\"setLive(false)\"\n        ></app-button>\n      </div>\n      <div>\n        <app-button\n          [type]=\"isLive ? 'primary' : 'default'\"\n          value=\"Live Data\"\n          (click)=\"setLive(true)\"\n        ></app-button>\n      </div>\n      <div *ngIf=\"!isLive\">\n        <div class=\"date-input\">\n          <i class=\"icon-filter_list_alt\"></i>\n          <input\n            type=\"text\"\n            ngxDaterangepickerMd\n            placeholder=\"Pick Two Dates\"\n          />\n        </div>\n      </div>\n    </div>\n    <div class=\"col-xs-3 right-side\">\n      <app-button\n        type=\"success\"\n        icon=\"icon-createmode_editedit\"\n        value=\"Edit Device\"\n        (click)=\"editDevice()\"\n      ></app-button>\n    </div>\n  </div>\n  <div class=\"row d-flex-lg temperature-view\">\n    <div class=\"col-lg-4\">\n      <app-temperature-overview></app-temperature-overview>\n    </div>\n    <div class=\"col-lg-4 middle-box\">\n      <app-device-data-report></app-device-data-report>\n    </div>\n    <div class=\"col-lg-4\">\n      <app-device-activity-times></app-device-activity-times>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-lg-4\">\n      <div class=\"mt-1\">\n        <app-card title=\"Tempreature Guage\">\n          <app-gauge-chart\n            #gaugeChartView\n            [ranges]=\"chartRange\"\n            [min]=\"0\"\n            [max]=\"100\"\n          ></app-gauge-chart>\n        </app-card>\n      </div>\n\n      <div class=\"mt-1\">\n        <app-card title=\"Tempreature Data List Overview\">\n          <ng-container\n            *ngIf=\"temperatureDataList && temperatureDataList.length === 0\"\n          >\n            You have no devices connected.\n          </ng-container>\n\n          <ngx-datatable\n            class=\"material striped\"\n            [rows]=\"temperatureDataList\"\n            (activate)=\"onActivate($event)\"\n            [columns]=\"[{ prop: 'id' }, { name: 'value' }, { name: 'date' }]\"\n            [columnMode]=\"ColumnMode.force\"\n            [headerHeight]=\"50\"\n            [footerHeight]=\"50\"\n            rowHeight=\"40\"\n            [externalPaging]=\"true\"\n            [count]=\"page.count\"\n            [offset]=\"page.offset\"\n            [limit]=\"page.limit\"\n          >\n            <ngx-datatable-column name=\"#\">\n              <ng-template\n                let-value=\"id\"\n                let-row=\"row\"\n                ngx-datatable-cell-template\n              >\n                {{ row.id }}\n              </ng-template>\n            </ngx-datatable-column>\n\n            <ngx-datatable-column name=\"Tempreature\">\n              <ng-template\n                let-row=\"row\"\n                let-value=\"value\"\n                ngx-datatable-cell-template\n              >\n                {{ row.value || 'Undefined' }}\n              </ng-template>\n            </ngx-datatable-column>\n            <ngx-datatable-column name=\"Date & Time\">\n              <ng-template\n                let-row=\"row\"\n                let-value=\"date\"\n                ngx-datatable-cell-template\n              >\n                {{ row.date || 'Undefined' }}\n              </ng-template>\n            </ngx-datatable-column>\n          </ngx-datatable>\n        </app-card>\n      </div>\n    </div>\n    <div class=\"col-lg-8 line-charts-wrapper right-box\">\n      <div class=\"mt-1\">\n        <app-card title=\"Last 20 Saved Records\">\n          <app-bar-chart #chartView></app-bar-chart>\n        </app-card>\n      </div>\n      <div class=\"mt-1\">\n        <app-card title=\"Average\">\n          <app-line-chart\n            [ranges]=\"chartRange\"\n            #chartAverageView\n          ></app-line-chart>\n        </app-card>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -4792,9 +4870,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainTabsComponent", function() { return MainTabsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _main_tab_item_main_tab_item_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../main-tab-item/main-tab-item.component */ "./src/app/iot/components/app-tab/main-tab-item/main-tab-item.component.ts");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-perfect-scrollbar */ "./node_modules/ngx-perfect-scrollbar/__ivy_ngcc__/fesm2015/ngx-perfect-scrollbar.js");
-/* harmony import */ var _shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../shared/services/tabs.service */ "./src/app/shared/services/tabs.service.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-perfect-scrollbar */ "./node_modules/ngx-perfect-scrollbar/__ivy_ngcc__/fesm2015/ngx-perfect-scrollbar.js");
+/* harmony import */ var _shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../shared/services/tabs.service */ "./src/app/shared/services/tabs.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4812,6 +4891,7 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
 
 
 
+
 var MainTabsComponent = /** @class */ (function () {
     function MainTabsComponent(tabService) {
         var _this = this;
@@ -4822,14 +4902,14 @@ var MainTabsComponent = /** @class */ (function () {
             suppressScrollY: true,
         };
         tabService.onTabActived
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["debounceTime"])(100))
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["delay"])(10))
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["debounceTime"])(100))
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["delay"])(10))
             .subscribe(function (tab) {
             _this.selectTab(_this.tabs.find(function (x) { return x.tab.id === tab.id; }));
             _this.activeTabService = tab;
             _this.scrollToEnd();
         });
-        tabService.onTabRemoved.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["delay"])(10)).subscribe(function () {
+        tabService.onTabRemoved.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["delay"])(10)).subscribe(function () {
             _this.scrollToEnd();
         });
     }
@@ -4846,6 +4926,17 @@ var MainTabsComponent = /** @class */ (function () {
         configurable: true
     });
     MainTabsComponent.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(true)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["delay"])(1))
+            .subscribe(function () {
+            if (_this.tabs && _this.tabs.length > 0) {
+                var tabItem = _this.tabs.first;
+                _this.activeTab = tabItem;
+                tabItem.isActive = true;
+                _this.activeTabService = tabItem.tab;
+            }
+        });
         this.setTabItems();
         this.scrollToEnd();
     };
@@ -4855,9 +4946,9 @@ var MainTabsComponent = /** @class */ (function () {
     MainTabsComponent.prototype.setTabItems = function () {
         var _this = this;
         this.tabItems$ = this.tabs.changes
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["startWith"])(''))
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["delay"])(0))
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function () { return _this.tabs.toArray(); }));
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["startWith"])(''))
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["delay"])(0))
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function () { return _this.tabs.toArray(); }));
     };
     MainTabsComponent.prototype.ngAfterContentChecked = function () {
         var _this = this;
@@ -4901,7 +4992,7 @@ var MainTabsComponent = /** @class */ (function () {
         }
     };
     MainTabsComponent.ctorParameters = function () { return [
-        { type: _shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_4__["TabService"] }
+        { type: _shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_5__["TabService"] }
     ]; };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('scrollframe', { static: false }),
@@ -4917,8 +5008,8 @@ var MainTabsComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [Number])
     ], MainTabsComponent.prototype, "activeTabIndex", null);
     __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_3__["PerfectScrollbarComponent"], { static: false }),
-        __metadata("design:type", ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_3__["PerfectScrollbarComponent"])
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_4__["PerfectScrollbarComponent"], { static: false }),
+        __metadata("design:type", ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_4__["PerfectScrollbarComponent"])
     ], MainTabsComponent.prototype, "componentRef", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChildren"])(_main_tab_item_main_tab_item_component__WEBPACK_IMPORTED_MODULE_1__["MainTabItemComponent"]),
@@ -4933,7 +5024,7 @@ var MainTabsComponent = /** @class */ (function () {
             selector: 'app-main-tabs',
             template: __importDefault(__webpack_require__(/*! raw-loader!./main-tabs.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/app-tab/main-tabs/main-tabs.component.html")).default,
         }),
-        __metadata("design:paramtypes", [_shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_4__["TabService"]])
+        __metadata("design:paramtypes", [_shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_5__["TabService"]])
     ], MainTabsComponent);
     return MainTabsComponent;
 }());
@@ -4966,8 +5057,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabComponent", function() { return TabComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var app_shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! app/shared/services/tabs.service */ "./src/app/shared/services/tabs.service.ts");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../shared/services/tabs.service */ "./src/app/shared/services/tabs.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4996,10 +5087,11 @@ var TabComponent = /** @class */ (function () {
         this.componentFactoryResolver = componentFactoryResolver;
         this.tabsService = tabsService;
         this.tabItems = [];
+        this.tabItems = this.tabsService.tabs.getValue();
         this.tabsService.onTabAdded
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])(function (tab) {
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["tap"])(function (tab) {
             _this.tabItems = __spreadArrays(_this.tabItems, [tab]);
-        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["delay"])(50), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])(function (tab) {
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["delay"])(50), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["tap"])(function (tab) {
             var contents = _this.viewContainerRef.toArray();
             _this.renderBody(tab, contents[contents.length - 1]);
         }))
@@ -5008,7 +5100,12 @@ var TabComponent = /** @class */ (function () {
             _this.tabItems = _this.tabItems.filter(function (t) { return t.id !== tab.id; });
         });
     }
-    TabComponent.prototype.ngAfterViewInit = function () { };
+    TabComponent.prototype.ngAfterViewInit = function () {
+        if (this.tabItems && this.tabItems.length > 0) {
+            var contents = this.viewContainerRef.toArray();
+            this.renderBody(this.tabItems[0], contents[0]);
+        }
+    };
     TabComponent.prototype.trackBy = function (index, item) {
         return item.id;
     };
@@ -5025,7 +5122,7 @@ var TabComponent = /** @class */ (function () {
     };
     TabComponent.ctorParameters = function () { return [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"] },
-        { type: app_shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_1__["TabService"] }
+        { type: _shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_2__["TabService"] }
     ]; };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChildren"])('content', { read: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }),
@@ -5038,9 +5135,143 @@ var TabComponent = /** @class */ (function () {
             styles: [__importDefault(__webpack_require__(/*! ./tab.component.scss */ "./src/app/iot/components/app-tab/tab/tab.component.scss")).default]
         }),
         __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"],
-            app_shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_1__["TabService"]])
+            _shared_services_tabs_service__WEBPACK_IMPORTED_MODULE_2__["TabService"]])
     ], TabComponent);
     return TabComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/iot/components/bar-chart/bar-chart.component.scss":
+/*!*******************************************************************!*\
+  !*** ./src/app/iot/components/bar-chart/bar-chart.component.scss ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2lvdC9jb21wb25lbnRzL2Jhci1jaGFydC9iYXItY2hhcnQuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/iot/components/bar-chart/bar-chart.component.ts":
+/*!*****************************************************************!*\
+  !*** ./src/app/iot/components/bar-chart/bar-chart.component.ts ***!
+  \*****************************************************************/
+/*! exports provided: BarChartComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BarChartComponent", function() { return BarChartComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @amcharts/amcharts4/core */ "./node_modules/@amcharts/amcharts4/core.js");
+/* harmony import */ var _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @amcharts/amcharts4/charts */ "./node_modules/@amcharts/amcharts4/charts.js");
+/* harmony import */ var _amcharts_amcharts4_themes_animated__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @amcharts/amcharts4/themes/animated */ "./node_modules/@amcharts/amcharts4/themes/animated.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+
+
+
+
+
+var BarChartComponent = /** @class */ (function () {
+    function BarChartComponent(platformId, zone) {
+        this.platformId = platformId;
+        this.zone = zone;
+        this.divId = "doc-" + Object(lodash__WEBPACK_IMPORTED_MODULE_2__["random"])(111111, 9999999);
+    }
+    // Run the function only in the browser
+    BarChartComponent.prototype.browserOnly = function (f) {
+        if (Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["isPlatformBrowser"])(this.platformId)) {
+            this.zone.runOutsideAngular(function () {
+                f();
+            });
+        }
+    };
+    BarChartComponent.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        Object(rxjs__WEBPACK_IMPORTED_MODULE_6__["timer"])(100).subscribe(function () {
+            _this.drawChart();
+        });
+    };
+    BarChartComponent.prototype.drawChart = function () {
+        var _this = this;
+        this.browserOnly(function () {
+            _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__["useTheme"](_amcharts_amcharts4_themes_animated__WEBPACK_IMPORTED_MODULE_5__["default"]);
+            var chart = _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__["create"](_this.divId, _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["XYChart"]);
+            chart.paddingRight = 20;
+            var data = [];
+            chart.data = data;
+            var dateAxis = chart.xAxes.push(new _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["DateAxis"]());
+            dateAxis.renderer.grid.template.location = 0;
+            var valueAxis = chart.yAxes.push(new _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["ValueAxis"]());
+            valueAxis.tooltip.disabled = true;
+            valueAxis.renderer.minWidth = 35;
+            var series = chart.series.push(new _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["ColumnSeries"]());
+            series.dataFields.dateX = 'date';
+            series.dataFields.valueY = 'value';
+            series.tooltipText = '{valueY.value}';
+            series.strokeWidth = 0;
+            series.fillOpacity = 0.5;
+            series.fill = _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__["color"]('blue');
+            chart.cursor = new _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["XYCursor"]();
+            _this.chart = chart;
+        });
+    };
+    BarChartComponent.prototype.ngOnDestroy = function () {
+        var _this = this;
+        this.browserOnly(function () {
+            if (_this.chart) {
+                _this.chart.dispose();
+            }
+        });
+    };
+    BarChartComponent.prototype.addData = function (data) {
+        if (!this.chart) {
+            return;
+        }
+        this.chart.addData(data, this.chart.data.length > 50 ? data.length : 0);
+    };
+    BarChartComponent.prototype.reset = function () {
+        this.chart.removeData(this.chart.data.length);
+    };
+    BarChartComponent.ctorParameters = function () { return [
+        { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"],] }] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+    ]; };
+    BarChartComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-bar-chart',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./bar-chart.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/bar-chart/bar-chart.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./bar-chart.component.scss */ "./src/app/iot/components/bar-chart/bar-chart.component.scss")).default]
+        }),
+        __param(0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"])),
+        __metadata("design:paramtypes", [Object, _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]])
+    ], BarChartComponent);
+    return BarChartComponent;
 }());
 
 
@@ -6178,6 +6409,259 @@ var DataFlowComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/iot/components/device-activity-times/device-activity-times.component.scss":
+/*!*******************************************************************************************!*\
+  !*** ./src/app/iot/components/device-activity-times/device-activity-times.component.scss ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".device-activity-wrapper {\n  font-size: 0.9rem;\n}\n.device-activity-wrapper .device-activity-item {\n  border-right: 1px solid #ddd;\n}\n.device-activity-wrapper .device-activity-item:last-child {\n  border-right: 0px;\n}\n.device-activity-wrapper .device-activity-item .activity-label {\n  white-space: nowrap;\n  display: flex;\n  align-items: center;\n}\n.device-activity-wrapper .device-activity-item .activity-label i {\n  font-size: 1.7rem;\n  margin-right: 0.5rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGkvbGFsYWxhbmQvdG9yYWJpdG8vc3JjL2FwcC9pb3QvY29tcG9uZW50cy9kZXZpY2UtYWN0aXZpdHktdGltZXMvZGV2aWNlLWFjdGl2aXR5LXRpbWVzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9pb3QvY29tcG9uZW50cy9kZXZpY2UtYWN0aXZpdHktdGltZXMvZGV2aWNlLWFjdGl2aXR5LXRpbWVzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0UsaUJBQUE7QUNBRjtBRENFO0VBQ0UsNEJBQUE7QUNDSjtBREFJO0VBQ0UsaUJBQUE7QUNFTjtBREFJO0VBQ0UsbUJBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7QUNFTjtBRERNO0VBQ0UsaUJBQUE7RUFDQSxvQkFBQTtBQ0dSIiwiZmlsZSI6InNyYy9hcHAvaW90L2NvbXBvbmVudHMvZGV2aWNlLWFjdGl2aXR5LXRpbWVzL2RldmljZS1hY3Rpdml0eS10aW1lcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgJy4vLi4vLi4vLi4vLi4vYXNzZXRzL3Njc3MvdmFyaWFibGVzLnNjc3MnO1xuLmRldmljZS1hY3Rpdml0eS13cmFwcGVyIHtcbiAgZm9udC1zaXplOiAwLjlyZW07XG4gIC5kZXZpY2UtYWN0aXZpdHktaXRlbSB7XG4gICAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI2RkZDtcbiAgICAmOmxhc3QtY2hpbGQge1xuICAgICAgYm9yZGVyLXJpZ2h0OiAwcHg7XG4gICAgfVxuICAgIC5hY3Rpdml0eS1sYWJlbCB7XG4gICAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICBpIHtcbiAgICAgICAgZm9udC1zaXplOiAxLjdyZW07XG4gICAgICAgIG1hcmdpbi1yaWdodDogMC41cmVtO1xuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIiwiLmRldmljZS1hY3Rpdml0eS13cmFwcGVyIHtcbiAgZm9udC1zaXplOiAwLjlyZW07XG59XG4uZGV2aWNlLWFjdGl2aXR5LXdyYXBwZXIgLmRldmljZS1hY3Rpdml0eS1pdGVtIHtcbiAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI2RkZDtcbn1cbi5kZXZpY2UtYWN0aXZpdHktd3JhcHBlciAuZGV2aWNlLWFjdGl2aXR5LWl0ZW06bGFzdC1jaGlsZCB7XG4gIGJvcmRlci1yaWdodDogMHB4O1xufVxuLmRldmljZS1hY3Rpdml0eS13cmFwcGVyIC5kZXZpY2UtYWN0aXZpdHktaXRlbSAuYWN0aXZpdHktbGFiZWwge1xuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLmRldmljZS1hY3Rpdml0eS13cmFwcGVyIC5kZXZpY2UtYWN0aXZpdHktaXRlbSAuYWN0aXZpdHktbGFiZWwgaSB7XG4gIGZvbnQtc2l6ZTogMS43cmVtO1xuICBtYXJnaW4tcmlnaHQ6IDAuNXJlbTtcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/iot/components/device-activity-times/device-activity-times.component.ts":
+/*!*****************************************************************************************!*\
+  !*** ./src/app/iot/components/device-activity-times/device-activity-times.component.ts ***!
+  \*****************************************************************************************/
+/*! exports provided: DeviceActivityTimesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DeviceActivityTimesComponent", function() { return DeviceActivityTimesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var DeviceActivityTimesComponent = /** @class */ (function () {
+    function DeviceActivityTimesComponent() {
+    }
+    DeviceActivityTimesComponent.prototype.ngOnInit = function () {
+    };
+    DeviceActivityTimesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-device-activity-times',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./device-activity-times.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-activity-times/device-activity-times.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./device-activity-times.component.scss */ "./src/app/iot/components/device-activity-times/device-activity-times.component.scss")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], DeviceActivityTimesComponent);
+    return DeviceActivityTimesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/iot/components/device-data-report/device-data-report.component.scss":
+/*!*************************************************************************************!*\
+  !*** ./src/app/iot/components/device-data-report/device-data-report.component.scss ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".device-data-report .device-data-report-item {\n  display: flex;\n  align-items: center;\n}\n.device-data-report .device-data-report-item > div {\n  margin: 0 5px;\n}\n.device-data-report .device-data-report-item > div:nth-child(1) {\n  flex: 1;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGkvbGFsYWxhbmQvdG9yYWJpdG8vc3JjL2FwcC9pb3QvY29tcG9uZW50cy9kZXZpY2UtZGF0YS1yZXBvcnQvZGV2aWNlLWRhdGEtcmVwb3J0LmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9pb3QvY29tcG9uZW50cy9kZXZpY2UtZGF0YS1yZXBvcnQvZGV2aWNlLWRhdGEtcmVwb3J0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNFO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0FDQUo7QURDSTtFQUlFLGFBQUE7QUNGTjtBRERNO0VBQ0UsT0FBQTtBQ0dSIiwiZmlsZSI6InNyYy9hcHAvaW90L2NvbXBvbmVudHMvZGV2aWNlLWRhdGEtcmVwb3J0L2RldmljZS1kYXRhLXJlcG9ydC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5kZXZpY2UtZGF0YS1yZXBvcnQge1xuICAuZGV2aWNlLWRhdGEtcmVwb3J0LWl0ZW0ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICA+IGRpdiB7XG4gICAgICAmOm50aC1jaGlsZCgxKSB7XG4gICAgICAgIGZsZXg6IDE7XG4gICAgICB9XG4gICAgICBtYXJnaW46IDAgNXB4O1xuICAgIH1cbiAgfVxufVxuIiwiLmRldmljZS1kYXRhLXJlcG9ydCAuZGV2aWNlLWRhdGEtcmVwb3J0LWl0ZW0ge1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLmRldmljZS1kYXRhLXJlcG9ydCAuZGV2aWNlLWRhdGEtcmVwb3J0LWl0ZW0gPiBkaXYge1xuICBtYXJnaW46IDAgNXB4O1xufVxuLmRldmljZS1kYXRhLXJlcG9ydCAuZGV2aWNlLWRhdGEtcmVwb3J0LWl0ZW0gPiBkaXY6bnRoLWNoaWxkKDEpIHtcbiAgZmxleDogMTtcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/iot/components/device-data-report/device-data-report.component.ts":
+/*!***********************************************************************************!*\
+  !*** ./src/app/iot/components/device-data-report/device-data-report.component.ts ***!
+  \***********************************************************************************/
+/*! exports provided: DeviceDataReportComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DeviceDataReportComponent", function() { return DeviceDataReportComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var DeviceDataReportComponent = /** @class */ (function () {
+    function DeviceDataReportComponent() {
+    }
+    DeviceDataReportComponent.prototype.ngOnInit = function () {
+    };
+    DeviceDataReportComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-device-data-report',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./device-data-report.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-data-report/device-data-report.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./device-data-report.component.scss */ "./src/app/iot/components/device-data-report/device-data-report.component.scss")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], DeviceDataReportComponent);
+    return DeviceDataReportComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/iot/components/device-single/blendtools.ts":
+/*!************************************************************!*\
+  !*** ./src/app/iot/components/device-single/blendtools.ts ***!
+  \************************************************************/
+/*! exports provided: DataBlender, applyBlend, BuiltinDataBlenders */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataBlender", function() { return DataBlender; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "applyBlend", function() { return applyBlend; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BuiltinDataBlenders", function() { return BuiltinDataBlenders; });
+/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mathjs */ "./node_modules/mathjs/lib/esm/index.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+var DataBlender = /** @class */ (function () {
+    function DataBlender() {
+    }
+    return DataBlender;
+}());
+
+var ExtractNumberBlender = /** @class */ (function (_super) {
+    __extends(ExtractNumberBlender, _super);
+    function ExtractNumberBlender() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.name = 'ExtractNumberBlender';
+        return _this;
+    }
+    ExtractNumberBlender.prototype.blend = function (input, options) {
+        return input.match(/[-+]?\d+(\.\d+)?/g).map(function (t) { return +t; });
+    };
+    return ExtractNumberBlender;
+}(DataBlender));
+var DigitalSignalBlender = /** @class */ (function (_super) {
+    __extends(DigitalSignalBlender, _super);
+    function DigitalSignalBlender() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.name = 'DigitalSignalBlender';
+        return _this;
+    }
+    DigitalSignalBlender.prototype.blend = function (input, options) {
+        if (!input) {
+            return null;
+        }
+        if (['on', 'high', '1'].includes(input.trim().toLowerCase())) {
+            return 1;
+        }
+        if (['off', 'low', '0'].includes(input.trim().toLowerCase())) {
+            return 0;
+        }
+        return null;
+    };
+    return DigitalSignalBlender;
+}(DataBlender));
+var TakeFirstBlender = /** @class */ (function (_super) {
+    __extends(TakeFirstBlender, _super);
+    function TakeFirstBlender() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.name = 'TakeFirstBlender';
+        return _this;
+    }
+    TakeFirstBlender.prototype.blend = function (input, options) {
+        return input ? input[0] : null;
+    };
+    return TakeFirstBlender;
+}(DataBlender));
+var DoubleBlender = /** @class */ (function (_super) {
+    __extends(DoubleBlender, _super);
+    function DoubleBlender() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.name = 'DoubleBlender';
+        return _this;
+    }
+    DoubleBlender.prototype.blend = function (input, options) {
+        return input * 2;
+    };
+    return DoubleBlender;
+}(DataBlender));
+var MathBlender = /** @class */ (function (_super) {
+    __extends(MathBlender, _super);
+    function MathBlender() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.name = 'MathBlender';
+        return _this;
+    }
+    MathBlender.prototype.blend = function (input, options) {
+        return Object(mathjs__WEBPACK_IMPORTED_MODULE_0__["evaluate"])(options.expression, { input: input });
+    };
+    return MathBlender;
+}(DataBlender));
+var JsonBlender = /** @class */ (function (_super) {
+    __extends(JsonBlender, _super);
+    function JsonBlender() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.name = 'JsonBlender';
+        return _this;
+    }
+    JsonBlender.prototype.blend = function (input, options) {
+        var data = {};
+        try {
+            data = JSON.parse(input);
+        }
+        catch (error) { }
+        return data;
+    };
+    return JsonBlender;
+}(DataBlender));
+function applyBlend(input, sequence) {
+    var output = input;
+    for (var _i = 0, sequence_1 = sequence; _i < sequence_1.length; _i++) {
+        var cls = sequence_1[_i];
+        output = cls.blend(output, { expression: 'input * 100' });
+    }
+    return output;
+}
+var BuiltinDataBlenders = {
+    ExtractNumberBlender: ExtractNumberBlender,
+    TakeFirstBlender: TakeFirstBlender,
+    DoubleBlender: DoubleBlender,
+    MathBlender: MathBlender,
+    DigitalSignalBlender: DigitalSignalBlender,
+    JsonBlender: JsonBlender,
+};
+
+
+/***/ }),
+
 /***/ "./src/app/iot/components/device-single/device-single.component.scss":
 /*!***************************************************************************!*\
   !*** ./src/app/iot/components/device-single/device-single.component.scss ***!
@@ -6205,10 +6689,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var app_locale_translations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! app/locale/translations */ "./src/app/locale/translations.ts");
-/* harmony import */ var app_shared_services_navigator_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! app/shared/services/navigator.service */ "./src/app/shared/services/navigator.service.ts");
-/* harmony import */ var app_shared_services_notification_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! app/shared/services/notification.service */ "./src/app/shared/services/notification.service.ts");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _shared_services_data_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../shared/services/data.service */ "./src/app/shared/services/data.service.ts");
+/* harmony import */ var _blendtools__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./blendtools */ "./src/app/iot/components/device-single/blendtools.ts");
+/* harmony import */ var app_shared_services_navigator_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! app/shared/services/navigator.service */ "./src/app/shared/services/navigator.service.ts");
+/* harmony import */ var app_shared_services_notification_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! app/shared/services/notification.service */ "./src/app/shared/services/notification.service.ts");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _shared_services_data_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../shared/services/data.service */ "./src/app/shared/services/data.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6221,6 +6706,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+
 
 
 
@@ -6243,6 +6729,11 @@ var devicePresets = [
         label: 'OVIO Temperature',
     },
 ];
+var listOfBlendSequence = [
+    new _blendtools__WEBPACK_IMPORTED_MODULE_4__["BuiltinDataBlenders"].ExtractNumberBlender(),
+    new _blendtools__WEBPACK_IMPORTED_MODULE_4__["BuiltinDataBlenders"].TakeFirstBlender(),
+    new _blendtools__WEBPACK_IMPORTED_MODULE_4__["BuiltinDataBlenders"].DoubleBlender(),
+];
 var DeviceSingleComponent = /** @class */ (function () {
     function DeviceSingleComponent(dataService, notification, location, navigatorService) {
         this.dataService = dataService;
@@ -6253,6 +6744,7 @@ var DeviceSingleComponent = /** @class */ (function () {
         this.devicePresets = devicePresets;
         this.translations = app_locale_translations__WEBPACK_IMPORTED_MODULE_3__["translations"];
         this.params = {};
+        this.sampleInput = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('Temperature 100');
         this.form = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
             name: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](''),
             preset: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('custom'),
@@ -6281,9 +6773,23 @@ var DeviceSingleComponent = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
+    Object.defineProperty(DeviceSingleComponent.prototype, "blend", {
+        get: function () {
+            return Object(_blendtools__WEBPACK_IMPORTED_MODULE_4__["applyBlend"])(this.sampleInput.value, listOfBlendSequence);
+        },
+        enumerable: false,
+        configurable: true
+    });
     Object.defineProperty(DeviceSingleComponent.prototype, "id", {
         get: function () {
             return +this.params.device;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(DeviceSingleComponent.prototype, "availableBlender", {
+        get: function () {
+            return listOfBlendSequence;
         },
         enumerable: false,
         configurable: true
@@ -6296,7 +6802,7 @@ var DeviceSingleComponent = /** @class */ (function () {
         }
         this.dataService
             .getDevice(this.id)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_6__["tap"])(function (res) {
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["tap"])(function (res) {
             _this.res = res;
             _this.form.patchValue(res.data);
         }))
@@ -6307,7 +6813,7 @@ var DeviceSingleComponent = /** @class */ (function () {
         var id = this.form.value.id;
         this.dataService
             .postDevice(this.form.value)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_6__["tap"])(function (res) {
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["tap"])(function (res) {
             _this.res = res;
             if (res.error) {
                 _this.notification.showFailedMessage(app_locale_translations__WEBPACK_IMPORTED_MODULE_3__["translations"].deviceForm.errorSubmit, app_locale_translations__WEBPACK_IMPORTED_MODULE_3__["translations"].serverErrors[res.error.message] ||
@@ -6336,10 +6842,10 @@ var DeviceSingleComponent = /** @class */ (function () {
         configurable: true
     });
     DeviceSingleComponent.ctorParameters = function () { return [
-        { type: _shared_services_data_service__WEBPACK_IMPORTED_MODULE_7__["DataService"] },
-        { type: app_shared_services_notification_service__WEBPACK_IMPORTED_MODULE_5__["NotificationService"] },
+        { type: _shared_services_data_service__WEBPACK_IMPORTED_MODULE_8__["DataService"] },
+        { type: app_shared_services_notification_service__WEBPACK_IMPORTED_MODULE_6__["NotificationService"] },
         { type: _angular_common__WEBPACK_IMPORTED_MODULE_0__["Location"] },
-        { type: app_shared_services_navigator_service__WEBPACK_IMPORTED_MODULE_4__["NavigatorService"] }
+        { type: app_shared_services_navigator_service__WEBPACK_IMPORTED_MODULE_5__["NavigatorService"] }
     ]; };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
@@ -6351,10 +6857,10 @@ var DeviceSingleComponent = /** @class */ (function () {
             template: __importDefault(__webpack_require__(/*! raw-loader!./device-single.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/device-single/device-single.component.html")).default,
             styles: [__importDefault(__webpack_require__(/*! ./device-single.component.scss */ "./src/app/iot/components/device-single/device-single.component.scss")).default]
         }),
-        __metadata("design:paramtypes", [_shared_services_data_service__WEBPACK_IMPORTED_MODULE_7__["DataService"],
-            app_shared_services_notification_service__WEBPACK_IMPORTED_MODULE_5__["NotificationService"],
+        __metadata("design:paramtypes", [_shared_services_data_service__WEBPACK_IMPORTED_MODULE_8__["DataService"],
+            app_shared_services_notification_service__WEBPACK_IMPORTED_MODULE_6__["NotificationService"],
             _angular_common__WEBPACK_IMPORTED_MODULE_0__["Location"],
-            app_shared_services_navigator_service__WEBPACK_IMPORTED_MODULE_4__["NavigatorService"]])
+            app_shared_services_navigator_service__WEBPACK_IMPORTED_MODULE_5__["NavigatorService"]])
     ], DeviceSingleComponent);
     return DeviceSingleComponent;
 }());
@@ -8198,6 +8704,155 @@ var LayoutComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/iot/components/line-chart/line-chart.component.scss":
+/*!*********************************************************************!*\
+  !*** ./src/app/iot/components/line-chart/line-chart.component.scss ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2lvdC9jb21wb25lbnRzL2xpbmUtY2hhcnQvbGluZS1jaGFydC5jb21wb25lbnQuc2NzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/iot/components/line-chart/line-chart.component.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/iot/components/line-chart/line-chart.component.ts ***!
+  \*******************************************************************/
+/*! exports provided: LineChartComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LineChartComponent", function() { return LineChartComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @amcharts/amcharts4/core */ "./node_modules/@amcharts/amcharts4/core.js");
+/* harmony import */ var _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @amcharts/amcharts4/charts */ "./node_modules/@amcharts/amcharts4/charts.js");
+/* harmony import */ var _amcharts_amcharts4_themes_animated__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @amcharts/amcharts4/themes/animated */ "./node_modules/@amcharts/amcharts4/themes/animated.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+
+
+
+
+
+var LineChartComponent = /** @class */ (function () {
+    function LineChartComponent(platformId, zone) {
+        this.platformId = platformId;
+        this.zone = zone;
+        this.divId = "doc-" + Object(lodash__WEBPACK_IMPORTED_MODULE_2__["random"])(111111, 9999999);
+    }
+    // Run the function only in the browser
+    LineChartComponent.prototype.browserOnly = function (f) {
+        if (Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["isPlatformBrowser"])(this.platformId)) {
+            this.zone.runOutsideAngular(function () {
+                f();
+            });
+        }
+    };
+    LineChartComponent.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        Object(rxjs__WEBPACK_IMPORTED_MODULE_6__["timer"])(100).subscribe(function () {
+            _this.drawChart();
+        });
+    };
+    LineChartComponent.prototype.drawChart = function () {
+        var _this = this;
+        this.browserOnly(function () {
+            _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__["useTheme"](_amcharts_amcharts4_themes_animated__WEBPACK_IMPORTED_MODULE_5__["default"]);
+            var chart = _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__["create"](_this.divId, _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["XYChart"]);
+            chart.paddingRight = 20;
+            var data = [];
+            chart.data = data;
+            var dateAxis = chart.xAxes.push(new _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["DateAxis"]());
+            dateAxis.renderer.grid.template.location = 0;
+            var valueAxis = chart.yAxes.push(new _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["ValueAxis"]());
+            valueAxis.tooltip.disabled = true;
+            valueAxis.renderer.minWidth = 35;
+            var series = chart.series.push(new _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["LineSeries"]());
+            series.dataFields.dateX = 'date';
+            series.dataFields.valueY = 'value';
+            series.tooltipText = '{valueY.value}';
+            series.strokeWidth = 2;
+            series.tensionX = 0.77;
+            var colorSet = new _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__["ColorSet"]();
+            if (_this.ranges) {
+                _this.ranges.forEach(function (range, i) {
+                    var newRange = valueAxis.createSeriesRange(series);
+                    newRange.value = range.value;
+                    newRange.endValue = range.endValue;
+                    newRange.contents.stroke = range.color
+                        ? _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_3__["color"](range.color)
+                        : colorSet.getIndex(i);
+                    newRange.contents.fill = newRange.contents.stroke;
+                });
+            }
+            chart.cursor = new _amcharts_amcharts4_charts__WEBPACK_IMPORTED_MODULE_4__["XYCursor"]();
+            _this.chart = chart;
+        });
+    };
+    LineChartComponent.prototype.ngOnDestroy = function () {
+        var _this = this;
+        this.browserOnly(function () {
+            if (_this.chart) {
+                _this.chart.dispose();
+            }
+        });
+    };
+    LineChartComponent.prototype.addData = function (data) {
+        if (!this.chart) {
+            return;
+        }
+        this.chart.addData(data, this.chart.data.length > 50 ? data.length : 0);
+    };
+    LineChartComponent.prototype.reset = function () {
+        this.chart.removeData(this.chart.data.length);
+    };
+    LineChartComponent.ctorParameters = function () { return [
+        { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"],] }] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+    ]; };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Array)
+    ], LineChartComponent.prototype, "ranges", void 0);
+    LineChartComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-line-chart',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./line-chart.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/line-chart/line-chart.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./line-chart.component.scss */ "./src/app/iot/components/line-chart/line-chart.component.scss")).default]
+        }),
+        __param(0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"])),
+        __metadata("design:paramtypes", [Object, _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]])
+    ], LineChartComponent);
+    return LineChartComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/iot/components/loading/loading.component.ts":
 /*!*************************************************************!*\
   !*** ./src/app/iot/components/loading/loading.component.ts ***!
@@ -8287,7 +8942,7 @@ var MainTabComponent = /** @class */ (function () {
         }
         if ((event.keyCode >= _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["KEY_CODE"].ONE && event.keyCode <= _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["KEY_CODE"].NINE) ||
             (event.keyCode >= _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["KEY_CODE"].PAD_ONE && event.keyCode <= _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["KEY_CODE"].PAD_NINE)) {
-            this.tabService.activeTabById(+event.key - 1);
+            this.tabService.activeTabById(+event.key);
         }
     };
     MainTabComponent.prototype.ngOnInit = function () { };
@@ -8343,6 +8998,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../router */ "./src/app/router.ts");
 /* harmony import */ var _blockly_blockly_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../blockly/blockly.component */ "./src/app/iot/components/blockly/blockly.component.ts");
 /* harmony import */ var _device_single_device_single_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../device-single/device-single.component */ "./src/app/iot/components/device-single/device-single.component.ts");
+/* harmony import */ var _temperature_view_temperature_view_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../temperature-view/temperature-view.component */ "./src/app/iot/components/temperature-view/temperature-view.component.ts");
+
 
 
 
@@ -8423,6 +9080,10 @@ var tabRoutes = [
         path: _router__WEBPACK_IMPORTED_MODULE_12__["AppRoutes"].devices,
         component: _devices_devices_component__WEBPACK_IMPORTED_MODULE_4__["DevicesComponent"],
     },
+    {
+        path: _router__WEBPACK_IMPORTED_MODULE_12__["AppRoutes"].temperatureView,
+        component: _temperature_view_temperature_view_component__WEBPACK_IMPORTED_MODULE_15__["TemperatureViewComponent"],
+    },
 ];
 
 
@@ -8494,6 +9155,9 @@ var NavbarComponent = /** @class */ (function () {
     };
     NavbarComponent.prototype.openDatabaseConfig = function () {
         this.navigatorService.openDatabaseConfig();
+    };
+    NavbarComponent.prototype.openTemperatureView = function () {
+        this.navigatorService.openTemperatureView();
     };
     NavbarComponent.prototype.logicBuilding = function () {
         this.navigatorService.openLogicBuilding();
@@ -9571,6 +10235,260 @@ var TabsComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/iot/components/temperature-overview/temperature-overview.component.scss":
+/*!*****************************************************************************************!*\
+  !*** ./src/app/iot/components/temperature-overview/temperature-overview.component.scss ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".temperture-overview-wrapper .temperture-overview-item {\n  border-right: 1px solid #ddd;\n}\n.temperture-overview-wrapper .temperture-overview-item:last-child {\n  border-right: 0px;\n}\n.temperture-overview-wrapper .temperture-overview-item .temperture-value {\n  font-size: 1.7rem;\n  white-space: nowrap;\n}\n.temperture-overview-wrapper .temperture-overview-item .temperture-diff {\n  font-size: 0.8rem;\n  white-space: nowrap;\n}\n.temperture-overview-wrapper .temperture-overview-item .temperture-diff.pos {\n  color: #2b78fe;\n}\n.temperture-overview-wrapper .temperture-overview-item .temperture-diff.neg {\n  color: #f44336;\n}\n.temperture-overview-wrapper .temperture-overview-item .temperture-diff.neg i:before {\n  transform: rotate(90deg);\n}\n.temperture-overview-wrapper .temperture-overview-item .temperture-label {\n  font-size: 0.9rem;\n  padding: 0.5rem 0 0;\n  color: #999;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGkvbGFsYWxhbmQvdG9yYWJpdG8vc3JjL2FwcC9pb3QvY29tcG9uZW50cy90ZW1wZXJhdHVyZS1vdmVydmlldy90ZW1wZXJhdHVyZS1vdmVydmlldy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvaW90L2NvbXBvbmVudHMvdGVtcGVyYXR1cmUtb3ZlcnZpZXcvdGVtcGVyYXR1cmUtb3ZlcnZpZXcuY29tcG9uZW50LnNjc3MiLCIvVXNlcnMvYWxpL2xhbGFsYW5kL3RvcmFiaXRvL3NyYy9hc3NldHMvc2Nzcy92YXJpYWJsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFRTtFQUNFLDRCQUFBO0FDREo7QURFSTtFQUNFLGlCQUFBO0FDQU47QURFSTtFQUNFLGlCQUFBO0VBQ0EsbUJBQUE7QUNBTjtBREVJO0VBQ0UsaUJBQUE7RUFDQSxtQkFBQTtBQ0FOO0FEQ007RUFDRSxjRVNPO0FEUmY7QURDTTtFQUNFLGNFWU07QURYZDtBREFRO0VBQ0Usd0JBQUE7QUNFVjtBREVJO0VBQ0UsaUJBQUE7RUFDQSxtQkFBQTtFQUNBLFdBQUE7QUNBTiIsImZpbGUiOiJzcmMvYXBwL2lvdC9jb21wb25lbnRzL3RlbXBlcmF0dXJlLW92ZXJ2aWV3L3RlbXBlcmF0dXJlLW92ZXJ2aWV3LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCAnLi8uLi8uLi8uLi8uLi9hc3NldHMvc2Nzcy92YXJpYWJsZXMuc2Nzcyc7XG4udGVtcGVydHVyZS1vdmVydmlldy13cmFwcGVyIHtcbiAgLnRlbXBlcnR1cmUtb3ZlcnZpZXctaXRlbSB7XG4gICAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI2RkZDtcbiAgICAmOmxhc3QtY2hpbGQge1xuICAgICAgYm9yZGVyLXJpZ2h0OiAwcHg7XG4gICAgfVxuICAgIC50ZW1wZXJ0dXJlLXZhbHVlIHtcbiAgICAgIGZvbnQtc2l6ZTogMS43cmVtO1xuICAgICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcbiAgICB9XG4gICAgLnRlbXBlcnR1cmUtZGlmZiB7XG4gICAgICBmb250LXNpemU6IDAuOHJlbTtcbiAgICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7XG4gICAgICAmLnBvcyB7XG4gICAgICAgIGNvbG9yOiAkcHJpbWFyeUNvbG9yO1xuICAgICAgfVxuICAgICAgJi5uZWcge1xuICAgICAgICBjb2xvcjogJGRhbmdlckNvbG9yO1xuICAgICAgICBpOmJlZm9yZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpO1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICAgIC50ZW1wZXJ0dXJlLWxhYmVsIHtcbiAgICAgIGZvbnQtc2l6ZTogMC45cmVtO1xuICAgICAgcGFkZGluZzogMC41cmVtIDAgMDtcbiAgICAgIGNvbG9yOiAjOTk5O1xuICAgIH1cbiAgfVxufVxuIiwiLnRlbXBlcnR1cmUtb3ZlcnZpZXctd3JhcHBlciAudGVtcGVydHVyZS1vdmVydmlldy1pdGVtIHtcbiAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI2RkZDtcbn1cbi50ZW1wZXJ0dXJlLW92ZXJ2aWV3LXdyYXBwZXIgLnRlbXBlcnR1cmUtb3ZlcnZpZXctaXRlbTpsYXN0LWNoaWxkIHtcbiAgYm9yZGVyLXJpZ2h0OiAwcHg7XG59XG4udGVtcGVydHVyZS1vdmVydmlldy13cmFwcGVyIC50ZW1wZXJ0dXJlLW92ZXJ2aWV3LWl0ZW0gLnRlbXBlcnR1cmUtdmFsdWUge1xuICBmb250LXNpemU6IDEuN3JlbTtcbiAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcbn1cbi50ZW1wZXJ0dXJlLW92ZXJ2aWV3LXdyYXBwZXIgLnRlbXBlcnR1cmUtb3ZlcnZpZXctaXRlbSAudGVtcGVydHVyZS1kaWZmIHtcbiAgZm9udC1zaXplOiAwLjhyZW07XG4gIHdoaXRlLXNwYWNlOiBub3dyYXA7XG59XG4udGVtcGVydHVyZS1vdmVydmlldy13cmFwcGVyIC50ZW1wZXJ0dXJlLW92ZXJ2aWV3LWl0ZW0gLnRlbXBlcnR1cmUtZGlmZi5wb3Mge1xuICBjb2xvcjogIzJiNzhmZTtcbn1cbi50ZW1wZXJ0dXJlLW92ZXJ2aWV3LXdyYXBwZXIgLnRlbXBlcnR1cmUtb3ZlcnZpZXctaXRlbSAudGVtcGVydHVyZS1kaWZmLm5lZyB7XG4gIGNvbG9yOiAjZjQ0MzM2O1xufVxuLnRlbXBlcnR1cmUtb3ZlcnZpZXctd3JhcHBlciAudGVtcGVydHVyZS1vdmVydmlldy1pdGVtIC50ZW1wZXJ0dXJlLWRpZmYubmVnIGk6YmVmb3JlIHtcbiAgdHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpO1xufVxuLnRlbXBlcnR1cmUtb3ZlcnZpZXctd3JhcHBlciAudGVtcGVydHVyZS1vdmVydmlldy1pdGVtIC50ZW1wZXJ0dXJlLWxhYmVsIHtcbiAgZm9udC1zaXplOiAwLjlyZW07XG4gIHBhZGRpbmc6IDAuNXJlbSAwIDA7XG4gIGNvbG9yOiAjOTk5O1xufSIsIi8vLy8vLy8vLy8vLyBMaWdodCAvLy8vLy8vLy8vLy8vXG4kcHJpbWFyeUNvbG9yTGlnaHQ6ICMyYjc4ZmU7XG4kcHJpbWFyeUJhY2tDb2xvckxpZ2h0OiAjZmZmO1xuJHNlY29uZGFyeUJhY2tDb2xvckxpZ2h0OiAjZmFmYWZhO1xuJHByaW1hcnlUZXh0Q29sb3JMaWdodDogIzgzODM4MztcbiRzZWNvbmRhcnlUZXh0Q29sb3JMaWdodDogI2EzYTNhMztcbkBtaXhpbiBib3hTaGFkb3dMaWdodCgpIHtcbiAgYm94LXNoYWRvdzogMCAwIDdweCAjOTM5MjkyO1xufVxuXG4vLy8vLy8vLy8vLy8gRGFyayAvLy8vLy8vLy8vLy8vXG4kcHJpbWFyeUNvbG9yRGFyazogIzJiNzhmZTtcbiRwcmltYXJ5QmFja0NvbG9yRGFyazogIzMzMztcbiRzZWNvbmRhcnlCYWNrQ29sb3JEYXJrOiAjNDQ0O1xuJHByaW1hcnlUZXh0Q29sb3JEYXJrOiAjYTNhM2EzO1xuJHNlY29uZGFyeVRleHRDb2xvckRhcms6ICM5MzkzOTM7XG5AbWl4aW4gYm94U2hhZG93RGFyaygpIHtcbiAgYm94LXNoYWRvdzogMCAwIDVweCAjNTU1O1xufVxuXG4vLy8vLy8vLy8vLy8gTWFpbiBDb2xvcnMgLy8vLy8vLy8vLy8vL1xuJGRlZmF1bHRDb2xvcjogI2YwZjBmMDtcbiRkZWZhdWx0Q29sb3JUZXh0OiAjODM4MzgzO1xuXG4kcHJpbWFyeUNvbG9yOiAjMmI3OGZlO1xuJHByaW1hcnlDb2xvclRleHQ6ICNmZmZmZmY7XG5cbiRzdWNjZXNzQ29sb3I6ICM1YmM5NDU7XG4kc3VjY2Vzc0NvbG9yVGV4dDogI2ZmZmZmZjtcblxuJGRhbmdlckNvbG9yOiAjZjQ0MzM2O1xuJGRhbmdlckNvbG9yVGV4dDogI2ZmZmZmZjtcblxuJHdhcm5pbmdDb2xvcjogI2ZiOGMwMDtcbiR3YXJuaW5nQ29sb3JUZXh0OiAjZmZmZmZmO1xuXG4vLy8vLy8vLy8vLy8gTW9kYWwgQ29sb3JzIC8vLy8vLy8vLy8vLy9cbiRtb2RhbEhlYWRlckxpZ2h0OiAjZmFmYWZhO1xuJG1vZGFsQm9keUxpZ2h0OiAjZmZmO1xuXG4kbW9kYWxIZWFkZXJEYXJrOiAjZmFmYWZhO1xuJG1vZGFsQm9keURhcms6ICNmZmY7XG4iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/iot/components/temperature-overview/temperature-overview.component.ts":
+/*!***************************************************************************************!*\
+  !*** ./src/app/iot/components/temperature-overview/temperature-overview.component.ts ***!
+  \***************************************************************************************/
+/*! exports provided: TemperatureOverviewComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TemperatureOverviewComponent", function() { return TemperatureOverviewComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var TemperatureOverviewComponent = /** @class */ (function () {
+    function TemperatureOverviewComponent() {
+    }
+    TemperatureOverviewComponent.prototype.ngOnInit = function () { };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Array)
+    ], TemperatureOverviewComponent.prototype, "data", void 0);
+    TemperatureOverviewComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-temperature-overview',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./temperature-overview.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/temperature-overview/temperature-overview.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./temperature-overview.component.scss */ "./src/app/iot/components/temperature-overview/temperature-overview.component.scss")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], TemperatureOverviewComponent);
+    return TemperatureOverviewComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/iot/components/temperature-view/temperature-view.component.scss":
+/*!*********************************************************************************!*\
+  !*** ./src/app/iot/components/temperature-view/temperature-view.component.scss ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".temperature-view-wrapper {\n  flex: 1;\n}\n.temperature-view-wrapper .filter-bar {\n  padding-bottom: 1.5rem;\n}\n.temperature-view-wrapper .filter-bar .left-side > div {\n  margin-right: 10px;\n}\n.temperature-view-wrapper .filter-bar .right-side {\n  text-align: right;\n}\n.temperature-view-wrapper .temperature-view > div {\n  margin-top: 1rem;\n}\n.temperature-view-wrapper .temperature-view > div:first-child {\n  margin-top: 0;\n}\n@media (min-width: 1200px) {\n  .temperature-view-wrapper .temperature-view > div {\n    margin-top: 0;\n  }\n}\n.temperature-view-wrapper .line-charts-wrapper {\n  position: -webkit-sticky;\n  position: sticky;\n  top: -15px;\n}\n.temperature-view-wrapper .middle-box {\n  padding: 0 15px;\n}\n@media (min-width: 1200px) {\n  .temperature-view-wrapper .middle-box {\n    padding: 0;\n  }\n}\n.temperature-view-wrapper .right-box {\n  padding-left: 15px;\n}\n@media (min-width: 1200px) {\n  .temperature-view-wrapper .right-box {\n    padding-left: 0;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbGkvbGFsYWxhbmQvdG9yYWJpdG8vc3JjL2FwcC9pb3QvY29tcG9uZW50cy90ZW1wZXJhdHVyZS12aWV3L3RlbXBlcmF0dXJlLXZpZXcuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2lvdC9jb21wb25lbnRzL3RlbXBlcmF0dXJlLXZpZXcvdGVtcGVyYXR1cmUtdmlldy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLE9BQUE7QUNDRjtBREFFO0VBQ0Usc0JBQUE7QUNFSjtBREFNO0VBQ0Usa0JBQUE7QUNFUjtBRENJO0VBQ0UsaUJBQUE7QUNDTjtBREdJO0VBQ0UsZ0JBQUE7QUNETjtBREVNO0VBQ0UsYUFBQTtBQ0FSO0FERU07RUFMRjtJQU1JLGFBQUE7RUNDTjtBQUNGO0FERUU7RUFDRSx3QkFBQTtFQUFBLGdCQUFBO0VBQ0EsVUFBQTtBQ0FKO0FERUU7RUFDRSxlQUFBO0FDQUo7QURDSTtFQUZGO0lBR0ksVUFBQTtFQ0VKO0FBQ0Y7QURBRTtFQUNFLGtCQUFBO0FDRUo7QURESTtFQUZGO0lBR0ksZUFBQTtFQ0lKO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9pb3QvY29tcG9uZW50cy90ZW1wZXJhdHVyZS12aWV3L3RlbXBlcmF0dXJlLXZpZXcuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVtcGVyYXR1cmUtdmlldy13cmFwcGVyIHtcbiAgZmxleDogMTtcbiAgLmZpbHRlci1iYXIge1xuICAgIHBhZGRpbmctYm90dG9tOiAxLjVyZW07XG4gICAgLmxlZnQtc2lkZSB7XG4gICAgICA+IGRpdiB7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMTBweDtcbiAgICAgIH1cbiAgICB9XG4gICAgLnJpZ2h0LXNpZGUge1xuICAgICAgdGV4dC1hbGlnbjogcmlnaHQ7XG4gICAgfVxuICB9XG4gIC50ZW1wZXJhdHVyZS12aWV3IHtcbiAgICA+IGRpdiB7XG4gICAgICBtYXJnaW4tdG9wOiAxcmVtO1xuICAgICAgJjpmaXJzdC1jaGlsZCB7XG4gICAgICAgIG1hcmdpbi10b3A6IDA7XG4gICAgICB9XG4gICAgICBAbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgICAgIG1hcmdpbi10b3A6IDA7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIC5saW5lLWNoYXJ0cy13cmFwcGVyIHtcbiAgICBwb3NpdGlvbjogc3RpY2t5O1xuICAgIHRvcDogLTE1cHg7XG4gIH1cbiAgLm1pZGRsZS1ib3gge1xuICAgIHBhZGRpbmc6IDAgMTVweDtcbiAgICBAbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgICBwYWRkaW5nOiAwO1xuICAgIH1cbiAgfVxuICAucmlnaHQtYm94IHtcbiAgICBwYWRkaW5nLWxlZnQ6IDE1cHg7XG4gICAgQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgICAgcGFkZGluZy1sZWZ0OiAwO1xuICAgIH1cbiAgfVxufVxuIiwiLnRlbXBlcmF0dXJlLXZpZXctd3JhcHBlciB7XG4gIGZsZXg6IDE7XG59XG4udGVtcGVyYXR1cmUtdmlldy13cmFwcGVyIC5maWx0ZXItYmFyIHtcbiAgcGFkZGluZy1ib3R0b206IDEuNXJlbTtcbn1cbi50ZW1wZXJhdHVyZS12aWV3LXdyYXBwZXIgLmZpbHRlci1iYXIgLmxlZnQtc2lkZSA+IGRpdiB7XG4gIG1hcmdpbi1yaWdodDogMTBweDtcbn1cbi50ZW1wZXJhdHVyZS12aWV3LXdyYXBwZXIgLmZpbHRlci1iYXIgLnJpZ2h0LXNpZGUge1xuICB0ZXh0LWFsaWduOiByaWdodDtcbn1cbi50ZW1wZXJhdHVyZS12aWV3LXdyYXBwZXIgLnRlbXBlcmF0dXJlLXZpZXcgPiBkaXYge1xuICBtYXJnaW4tdG9wOiAxcmVtO1xufVxuLnRlbXBlcmF0dXJlLXZpZXctd3JhcHBlciAudGVtcGVyYXR1cmUtdmlldyA+IGRpdjpmaXJzdC1jaGlsZCB7XG4gIG1hcmdpbi10b3A6IDA7XG59XG5AbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gIC50ZW1wZXJhdHVyZS12aWV3LXdyYXBwZXIgLnRlbXBlcmF0dXJlLXZpZXcgPiBkaXYge1xuICAgIG1hcmdpbi10b3A6IDA7XG4gIH1cbn1cbi50ZW1wZXJhdHVyZS12aWV3LXdyYXBwZXIgLmxpbmUtY2hhcnRzLXdyYXBwZXIge1xuICBwb3NpdGlvbjogc3RpY2t5O1xuICB0b3A6IC0xNXB4O1xufVxuLnRlbXBlcmF0dXJlLXZpZXctd3JhcHBlciAubWlkZGxlLWJveCB7XG4gIHBhZGRpbmc6IDAgMTVweDtcbn1cbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcbiAgLnRlbXBlcmF0dXJlLXZpZXctd3JhcHBlciAubWlkZGxlLWJveCB7XG4gICAgcGFkZGluZzogMDtcbiAgfVxufVxuLnRlbXBlcmF0dXJlLXZpZXctd3JhcHBlciAucmlnaHQtYm94IHtcbiAgcGFkZGluZy1sZWZ0OiAxNXB4O1xufVxuQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAudGVtcGVyYXR1cmUtdmlldy13cmFwcGVyIC5yaWdodC1ib3gge1xuICAgIHBhZGRpbmctbGVmdDogMDtcbiAgfVxufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/iot/components/temperature-view/temperature-view.component.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/app/iot/components/temperature-view/temperature-view.component.ts ***!
+  \*******************************************************************************/
+/*! exports provided: TemperatureViewComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TemperatureViewComponent", function() { return TemperatureViewComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _shared_definitions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../shared/definitions */ "./src/app/shared/definitions.ts");
+/* harmony import */ var _bar_chart_bar_chart_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../bar-chart/bar-chart.component */ "./src/app/iot/components/bar-chart/bar-chart.component.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _swimlane_ngx_datatable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @swimlane/ngx-datatable */ "./node_modules/@swimlane/ngx-datatable/__ivy_ngcc__/fesm2015/swimlane-ngx-datatable.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _gauge_chart_gauge_chart_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../gauge-chart/gauge-chart.component */ "./src/app/iot/components/gauge-chart/gauge-chart.component.ts");
+/* harmony import */ var _line_chart_line_chart_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../line-chart/line-chart.component */ "./src/app/iot/components/line-chart/line-chart.component.ts");
+/* harmony import */ var _shared_services_modal_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../shared/services/modal.service */ "./src/app/shared/services/modal.service.ts");
+/* harmony import */ var _device_single_device_single_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../device-single/device-single.component */ "./src/app/iot/components/device-single/device-single.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+var __spreadArrays = (undefined && undefined.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
+
+
+
+
+
+
+
+
+
+
+var TemperatureViewComponent = /** @class */ (function () {
+    function TemperatureViewComponent(modalService) {
+        this.modalService = modalService;
+        this.temperatureDataList = [];
+        this.temperatureOverview = [];
+        this.isLive = true;
+        this.chartRange = [
+            {
+                value: 0,
+                endValue: 20,
+                color: '#f14b50',
+            },
+            {
+                value: 20,
+                endValue: 40,
+                color: '#fdbe47',
+            },
+            {
+                value: 40,
+                endValue: 60,
+                color: '#bfda5e',
+            },
+            {
+                value: 60,
+                endValue: 80,
+                color: '#76c76b',
+            },
+            {
+                value: 80,
+                endValue: 100,
+                color: '#3fab6b',
+            },
+        ];
+        this.page = {
+            count: 10,
+            offset: 0,
+            limit: 10,
+        };
+        this.ColumnMode = _swimlane_ngx_datatable__WEBPACK_IMPORTED_MODULE_4__["ColumnMode"];
+        this.SelectionType = _swimlane_ngx_datatable__WEBPACK_IMPORTED_MODULE_4__["SelectionType"];
+    }
+    TemperatureViewComponent.prototype.setLive = function (status) {
+        this.isLive = status;
+    };
+    TemperatureViewComponent.prototype.onActivate = function (event) {
+        event.type === 'click' && event.cellElement && event.cellElement.blur();
+    };
+    TemperatureViewComponent.prototype.editDevice = function () {
+        this.modalService.open({
+            title: 'Running Tasks',
+            content: _device_single_device_single_component__WEBPACK_IMPORTED_MODULE_9__["DeviceSingleComponent"],
+            type: _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["ModalDialogType"].NOTIFY,
+        });
+    };
+    TemperatureViewComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        var current = 0, counter = 0;
+        Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(1000).subscribe(function () {
+            counter++;
+            current = Math.round(Math.random() * 100);
+            _this.chartView.addData([
+                {
+                    date: new Date(),
+                    name: 'data',
+                    value: current,
+                },
+            ]);
+            _this.chartAverageView.addData([
+                {
+                    date: new Date(),
+                    name: 'data',
+                    value: current,
+                },
+            ]);
+            _this.page = {
+                count: counter,
+                offset: 1,
+                limit: 10,
+            };
+            _this.temperatureOverview = [
+                _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["TemperatureOverviewType"].MIN,
+                _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["TemperatureOverviewType"].MAX,
+                _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["TemperatureOverviewType"].AVG,
+            ].map(function (i) { return ({
+                value: '' + (Math.random() * 20).toFixed(2),
+                percentage: '' + (Math.random() * 5).toFixed(2),
+                percentageType: Math.random() < 0.5
+                    ? _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["TemperatureOverviewPercentageType"].POS
+                    : _shared_definitions__WEBPACK_IMPORTED_MODULE_1__["TemperatureOverviewPercentageType"].NEG,
+                type: i,
+            }); });
+            _this.temperatureDataList = __spreadArrays(_this.temperatureDataList, [
+                {
+                    id: counter,
+                    value: Math.round(Math.random() * 10) + 'C',
+                    date: moment__WEBPACK_IMPORTED_MODULE_5__(new Date()).format('YYYY-MM-DD HH:mm'),
+                },
+            ]);
+            _this.gaugeChartView.addData(current);
+        });
+    };
+    TemperatureViewComponent.ctorParameters = function () { return [
+        { type: _shared_services_modal_service__WEBPACK_IMPORTED_MODULE_8__["ModalService"] }
+    ]; };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('chartView', { static: false }),
+        __metadata("design:type", _bar_chart_bar_chart_component__WEBPACK_IMPORTED_MODULE_2__["BarChartComponent"])
+    ], TemperatureViewComponent.prototype, "chartView", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('chartAverageView', { static: false }),
+        __metadata("design:type", _line_chart_line_chart_component__WEBPACK_IMPORTED_MODULE_7__["LineChartComponent"])
+    ], TemperatureViewComponent.prototype, "chartAverageView", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('gaugeChartView', { static: false }),
+        __metadata("design:type", _gauge_chart_gauge_chart_component__WEBPACK_IMPORTED_MODULE_6__["GaugeChartComponent"])
+    ], TemperatureViewComponent.prototype, "gaugeChartView", void 0);
+    TemperatureViewComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-temperature-view',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./temperature-view.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot/components/temperature-view/temperature-view.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./temperature-view.component.scss */ "./src/app/iot/components/temperature-view/temperature-view.component.scss")).default]
+        }),
+        __metadata("design:paramtypes", [_shared_services_modal_service__WEBPACK_IMPORTED_MODULE_8__["ModalService"]])
+    ], TemperatureViewComponent);
+    return TemperatureViewComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/iot/components/welcome-tab/welcome-tab.component.scss":
 /*!***********************************************************************!*\
   !*** ./src/app/iot/components/welcome-tab/welcome-tab.component.scss ***!
@@ -9920,12 +10838,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ngx_blockly__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ngx-blockly */ "./node_modules/ngx-blockly/__ivy_ngcc__/fesm2015/ngx-blockly.js");
 /* harmony import */ var _components_blockly_blockly_component__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./components/blockly/blockly.component */ "./src/app/iot/components/blockly/blockly.component.ts");
 /* harmony import */ var _directives_cursor_gradient_cursor_gradient_directive__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./directives/cursor-gradient/cursor-gradient.directive */ "./src/app/iot/directives/cursor-gradient/cursor-gradient.directive.ts");
+/* harmony import */ var ng2_dragula__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ng2-dragula */ "./node_modules/ng2-dragula/__ivy_ngcc__/dist/fesm5/ng2-dragula.js");
+/* harmony import */ var _components_temperature_view_temperature_view_component__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./components/temperature-view/temperature-view.component */ "./src/app/iot/components/temperature-view/temperature-view.component.ts");
+/* harmony import */ var _components_temperature_overview_temperature_overview_component__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ./components/temperature-overview/temperature-overview.component */ "./src/app/iot/components/temperature-overview/temperature-overview.component.ts");
+/* harmony import */ var _components_device_data_report_device_data_report_component__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ./components/device-data-report/device-data-report.component */ "./src/app/iot/components/device-data-report/device-data-report.component.ts");
+/* harmony import */ var _components_device_activity_times_device_activity_times_component__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./components/device-activity-times/device-activity-times.component */ "./src/app/iot/components/device-activity-times/device-activity-times.component.ts");
+/* harmony import */ var _components_bar_chart_bar_chart_component__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./components/bar-chart/bar-chart.component */ "./src/app/iot/components/bar-chart/bar-chart.component.ts");
+/* harmony import */ var _components_line_chart_line_chart_component__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ./components/line-chart/line-chart.component */ "./src/app/iot/components/line-chart/line-chart.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
+
+
+
 
 
 
@@ -10050,6 +10982,12 @@ var IotModule = /** @class */ (function () {
                 _components_app_tab_main_tab_label_main_tab_label_component__WEBPACK_IMPORTED_MODULE_25__["MainTabLabelComponent"],
                 _components_app_tab_main_tab_body_main_tab_body_component__WEBPACK_IMPORTED_MODULE_26__["MainTabBodyComponent"],
                 _directives_cursor_gradient_cursor_gradient_directive__WEBPACK_IMPORTED_MODULE_63__["CursorGradientDirective"],
+                _components_temperature_view_temperature_view_component__WEBPACK_IMPORTED_MODULE_65__["TemperatureViewComponent"],
+                _components_temperature_overview_temperature_overview_component__WEBPACK_IMPORTED_MODULE_66__["TemperatureOverviewComponent"],
+                _components_device_data_report_device_data_report_component__WEBPACK_IMPORTED_MODULE_67__["DeviceDataReportComponent"],
+                _components_device_activity_times_device_activity_times_component__WEBPACK_IMPORTED_MODULE_68__["DeviceActivityTimesComponent"],
+                _components_bar_chart_bar_chart_component__WEBPACK_IMPORTED_MODULE_69__["BarChartComponent"],
+                _components_line_chart_line_chart_component__WEBPACK_IMPORTED_MODULE_70__["LineChartComponent"],
             ],
             imports: [
                 _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
@@ -10060,6 +10998,7 @@ var IotModule = /** @class */ (function () {
                 ngx_blockly__WEBPACK_IMPORTED_MODULE_61__["NgxBlocklyModule"],
                 _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_42__["ScrollingModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_51__["FormsModule"],
+                ng2_dragula__WEBPACK_IMPORTED_MODULE_64__["DragulaModule"].forRoot(),
                 _angular_forms__WEBPACK_IMPORTED_MODULE_51__["ReactiveFormsModule"],
                 ngx_daterangepicker_material__WEBPACK_IMPORTED_MODULE_5__["NgxDaterangepickerMd"].forRoot(),
             ],
@@ -10223,6 +11162,7 @@ __webpack_require__.r(__webpack_exports__);
 var AppRoutes;
 (function (AppRoutes) {
     AppRoutes["messageCountGraph"] = "message-count-graph";
+    AppRoutes["temperatureView"] = "temperature-view";
     AppRoutes["logicBuilding"] = "logic-building";
     AppRoutes["dataCapture"] = "data-capture";
     AppRoutes["settings"] = "settings";
@@ -10681,7 +11621,7 @@ var BaseToastComponent = /** @class */ (function () {
 /*!***************************************!*\
   !*** ./src/app/shared/definitions.ts ***!
   \***************************************/
-/*! exports provided: IconReferences, HttpMethod, ConnectionStatus, DataVisualisionInputType, DataVisualisionElement, ReportScreen, DataVisualisionType, BarChartVisualision, LineChartVisualision, SerialMonitorVisualision, GaugeChartVisualision, ScatterPlotChartVisualision, PieChartVisualision, DataTableVisualision, MapVisualision, RelayControllerVisualision, ModalDialogType, MainTabType, KEY_CODE, NotificationType, StatusbarStatus, StatusbarItemPosition, ImportJobsStatus, ActivePortStatus, ActivePortListenerEvent, ActivePortType, ActivePortDataTarget, SupportedDatabaseVendor */
+/*! exports provided: IconReferences, HttpMethod, ConnectionStatus, DataVisualisionInputType, DataVisualisionElement, ReportScreen, DataVisualisionType, BarChartVisualision, LineChartVisualision, SerialMonitorVisualision, GaugeChartVisualision, ScatterPlotChartVisualision, PieChartVisualision, DataTableVisualision, MapVisualision, RelayControllerVisualision, ModalDialogType, MainTabType, KEY_CODE, NotificationType, StatusbarStatus, StatusbarItemPosition, ImportJobsStatus, ActivePortStatus, ActivePortListenerEvent, ActivePortType, ActivePortDataTarget, SupportedDatabaseVendor, TemperatureOverviewType, TemperatureOverviewPercentageType */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10714,6 +11654,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActivePortType", function() { return ActivePortType; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActivePortDataTarget", function() { return ActivePortDataTarget; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SupportedDatabaseVendor", function() { return SupportedDatabaseVendor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TemperatureOverviewType", function() { return TemperatureOverviewType; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TemperatureOverviewPercentageType", function() { return TemperatureOverviewPercentageType; });
 var __extends = (undefined && undefined.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -10988,6 +11930,17 @@ var SupportedDatabaseVendor;
     SupportedDatabaseVendor["MySQL"] = "mysql";
     SupportedDatabaseVendor["SQLite"] = "sqlite";
 })(SupportedDatabaseVendor || (SupportedDatabaseVendor = {}));
+var TemperatureOverviewType;
+(function (TemperatureOverviewType) {
+    TemperatureOverviewType["MIN"] = "Minimum";
+    TemperatureOverviewType["MAX"] = "Maximum";
+    TemperatureOverviewType["AVG"] = "Avgrage";
+})(TemperatureOverviewType || (TemperatureOverviewType = {}));
+var TemperatureOverviewPercentageType;
+(function (TemperatureOverviewPercentageType) {
+    TemperatureOverviewPercentageType["POS"] = "pos";
+    TemperatureOverviewPercentageType["NEG"] = "neg";
+})(TemperatureOverviewPercentageType || (TemperatureOverviewPercentageType = {}));
 
 
 /***/ }),
@@ -11712,6 +12665,9 @@ var NavigatorService = /** @class */ (function () {
     NavigatorService.prototype.openLogicBuilding = function () {
         this.go('Logic building', app_router__WEBPACK_IMPORTED_MODULE_1__["AppRoutes"].logicBuilding);
     };
+    NavigatorService.prototype.openTemperatureView = function () {
+        this.go('Temperature View', app_router__WEBPACK_IMPORTED_MODULE_1__["AppRoutes"].temperatureView);
+    };
     NavigatorService.prototype.deviceEdit = function (id) {
         this.go('Edit device', app_router__WEBPACK_IMPORTED_MODULE_1__["AppRoutes"].deviceEdit, {
             device: id,
@@ -12122,9 +13078,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _definitions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../definitions */ "./src/app/shared/definitions.ts");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var app_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! app/router */ "./src/app/router.ts");
 /* harmony import */ var _iot_components_main_tab_main_tab_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../iot/components/main-tab/main-tab.router */ "./src/app/iot/components/main-tab/main-tab.router.ts");
 /* harmony import */ var _navigator_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./navigator.service */ "./src/app/shared/services/navigator.service.ts");
 var __assign = (undefined && undefined.__assign) || function () {
@@ -12155,9 +13111,8 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var TabService = /** @class */ (function () {
-    function TabService(location, navigatorService) {
+    function TabService(navigatorService) {
         var _this = this;
-        this.location = location;
         this.navigatorService = navigatorService;
         this.onTabAdded = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
         this.onTabRemoved = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
@@ -12169,12 +13124,13 @@ var TabService = /** @class */ (function () {
         this.navigatorService.navigateSubject.subscribe(function (change) {
             _this.quickTab(change.title, change.path, change.params);
         });
+        this.quickTab('Temperature Live Data', app_router__WEBPACK_IMPORTED_MODULE_4__["AppRoutes"].temperatureView);
     }
     TabService.prototype.quickTab = function (title, path, params) {
         if (params === void 0) { params = {}; }
         var route = _iot_components_main_tab_main_tab_router__WEBPACK_IMPORTED_MODULE_5__["tabRoutes"].find(function (x) { return x.path === path; });
         var newTab = {
-            id: Object(lodash__WEBPACK_IMPORTED_MODULE_4__["random"])(111111, 9999999),
+            id: Object(lodash__WEBPACK_IMPORTED_MODULE_3__["random"])(111111, 9999999),
             title: title,
             type: _definitions__WEBPACK_IMPORTED_MODULE_1__["MainTabType"].PRIMARY,
             content: route.component,
@@ -12259,15 +13215,13 @@ var TabService = /** @class */ (function () {
         // localStorage.setItem('tabs', JSON.stringify(this.allTabs));
     };
     TabService.ctorParameters = function () { return [
-        { type: _angular_common__WEBPACK_IMPORTED_MODULE_3__["Location"] },
         { type: _navigator_service__WEBPACK_IMPORTED_MODULE_6__["NavigatorService"] }
     ]; };
     TabService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root',
         }),
-        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_3__["Location"],
-            _navigator_service__WEBPACK_IMPORTED_MODULE_6__["NavigatorService"]])
+        __metadata("design:paramtypes", [_navigator_service__WEBPACK_IMPORTED_MODULE_6__["NavigatorService"]])
     ], TabService);
     return TabService;
 }());
@@ -12735,6 +13689,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zone.js/dist/zone */ "./node_modules/zone.js/fesm2015/zone.js");
 /* harmony import */ var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_0__);
+/* eslint-disable */
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
@@ -12791,6 +13746,7 @@ __webpack_require__.r(__webpack_exports__);
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+window.global = window;
 
 
 /***/ }),
